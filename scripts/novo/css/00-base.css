@@ -1,0 +1,21 @@
+/* Starmountain Flash · desenho 2026. Gerado por scripts/novo/build.py: editar em scripts/novo/css/. */
+@font-face{font-family:G;font-weight:300;font-display:swap;src:url(/assets/site/geist-latin-300.woff2) format("woff2")}
+@font-face{font-family:G;font-weight:400;font-display:swap;src:url(/assets/site/geist-latin-400.woff2) format("woff2")}
+@font-face{font-family:G;font-weight:500;font-display:swap;src:url(/assets/site/geist-latin-500.woff2) format("woff2")}
+@font-face{font-family:G;font-weight:600 700;font-display:swap;src:url(/assets/site/geist-latin-600.woff2) format("woff2")}
+:root{--s-n:#04141C;--s-n2:#0A2430;--s-b:#F6F9FA;--s-m:#8FA6B0;--s-d:#5E7885;--s-t:#24404D;--s-f:#2EB8F2;--s-mi:#7ED9FB;--s-fl:#0B6E9E;--s-l:rgba(246,249,250,.14);--s-l2:rgba(246,249,250,.3);--s-lp:rgba(4,20,28,.14);--pad:clamp(20px,2.5vw,48px);--eo:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+:focus-visible{outline:2px solid var(--s-f);outline-offset:3px;border-radius:4px}
+.s-skip{position:absolute;left:-999px;top:8px;background:var(--s-b);color:var(--s-n);padding:10px 14px;border-radius:8px;z-index:99}.s-skip:focus{left:8px}
+.s-k{font-size:.8rem;letter-spacing:0;color:var(--s-m)}
+.pill{white-space:nowrap;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 20px;border:1px solid var(--s-l2);border-radius:99px;font:500 .875rem/1 G,system-ui,sans-serif;color:inherit;background:none;cursor:pointer;text-decoration:none;transition:background .3s var(--eo),color .3s var(--eo),border-color .3s}
+.pill:hover{background:var(--s-b);color:var(--s-n);border-color:var(--s-b)}
+.pill.s{background:var(--s-b);color:var(--s-n);border-color:var(--s-b);min-height:52px;padding:0 26px}
+.pill.s:hover{background:var(--s-f);border-color:var(--s-f)}
+.pill svg{transition:transform .3s var(--eo)}.pill:hover svg{transform:translate(2px,-2px)}
+.pill.d{border-color:rgba(4,20,28,.35)}.pill.d:hover{background:var(--s-n);color:var(--s-b);border-color:var(--s-n)}
+.pill.sd{background:var(--s-n);color:var(--s-b);border-color:var(--s-n);min-height:52px;padding:0 26px}.pill.sd:hover{background:var(--s-fl);border-color:var(--s-fl);color:#fff}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--eo) var(--d,0s),transform .9s var(--eo) var(--d,0s)}
+.js .rv.in,.rvx .rv{opacity:1!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}.js .rv{opacity:1;transform:none;transition:none}}

@@ -5,8 +5,6 @@
 body{background:#fff;font-family:"IN",system-ui,-apple-system,sans-serif;font-size:16.5px}
 
 /* títulos: serifa, peso normal; a segunda parte em itálico verde */
-:is(h1,h2,h3):not(.sfc *){font-family:"PF",Georgia,serif;font-weight:400!important;letter-spacing:-.01em!important}
-:is(h1,h2):not(.sfc *) > span{font-style:italic;color:var(--emerald)!important}
 .hero h1 > span,.dark h2 > span,.endcta h2 > span,.name h2 > span,.onde h2 > span,.cbox.dk h2 > span{color:#8FE0BD!important}
 .sec h2,.intro h2{font-size:clamp(36px,4.6vw,68px);line-height:1.05}
 

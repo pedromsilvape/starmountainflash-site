@@ -1,4 +1,5 @@
 'use client';
+import { SIMBOLO_D, SIMBOLO_VB } from './simbolo';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -73,9 +74,8 @@ export default function NaoEncontrada({ trabalhos }: { trabalhos: string }) {
 
       <section className="sec">
         <div className="note">
-          <svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="#0E4B35" strokeWidth="3" strokeLinecap="square">
-            <path d="M5 18 L16 7 L27 18" />
-            <path d="M5 27 L16 16 L27 27" />
+          <svg width="26" height="26" viewBox={SIMBOLO_VB} fill="#0B6E9E" aria-hidden="true">
+            <path d={SIMBOLO_D} />
           </svg>
           <h3>{en ? "Didn't find what you were looking for?" : 'Não encontrou o que procurava?'}</h3>
           <p>
