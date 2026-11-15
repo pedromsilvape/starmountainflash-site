@@ -65,7 +65,7 @@ export const negocioLd = {
   name: site.nome,
   url: site.url,
   // Sem logótipo declarado, os motores de IA escolhem uma imagem ao acaso.
-  logo: site.url + '/favicon-v2.png',
+  logo: site.url + '/img/logo-starmountain-flash.png',
   image: site.url + OG_PADRAO,
   email: site.email,
   telephone: site.telefoneRaw.replace(/\s/g, ''),
