@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#FFFFFF',
+  themeColor: '#04141C',
   width: 'device-width',
   initialScale: 1,
 };
@@ -56,10 +56,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {/* Nav, menu do telemóvel e pop-up do novo design (iguais às páginas estáticas). */}
         <Topo />
-        {children}
+        <div id="main">{children}</div>
         <Rodape />
         <CookieBanner />
-        <Script src="/assets/site/chrome.js" strategy="afterInteractive" />
+        <Script src="/assets/site/sf26.js" strategy="afterInteractive" />
         <JsonLd data={negocioLd} />
         {/* Plausible: medição de audiências sem cookies. */}
         <Script src="https://plausible.io/js/pa-2lRVurfYSTx4d-6iro9y0.js" strategy="lazyOnload" />

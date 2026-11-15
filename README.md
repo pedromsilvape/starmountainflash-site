@@ -13,6 +13,28 @@ npm run og      # regenera a imagem Open Graph (só quando a marca mudar)
 
 ---
 
+## Desenho 2026 (identidade nova)
+
+O site usa a identidade de 2026 (símbolo S, azul Flash, Geist) em todas as páginas.
+
+- `scripts/novo/css/` e `scripts/novo/js/`: a fonte do CSS e do JS partilhados.
+  Depois de editar, correr `python3 scripts/novo/build.py assets`, que gera
+  `public/assets/site/sf26.css`, `public/assets/site/sf26.js`,
+  e `src/styles/40-sf26.css`.
+- Página inicial (`public/inicio/` e `public/en/`) e páginas de serviço, Sobre,
+  Método e Contacto: HTML estático já convertido. Editam-se diretamente.
+- Blog, trabalhos, páginas legais e 404 continuam em React; o aspeto novo vem
+  de `src/styles/40-sf26.css`, importado em último lugar em `globals.css`.
+- `scripts/novo/build.py inicio|converter|soltas ORIGEM` foi usado uma vez para
+  converter as páginas a partir do estado anterior (commit anterior a este
+  desenho no ramo `main`). Só é preciso voltar a correr com uma cópia desse
+  estado em `ORIGEM`.
+- Nav, menu, pop-up e rodapé das páginas em React estão em
+  `src/components/novo/chrome.ts`, gerado a partir das funções `topo()` e
+  `rodape()` de `scripts/novo/build.py`.
+
+---
+
 ## Como está organizado
 
 ```

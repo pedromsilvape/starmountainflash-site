@@ -25,6 +25,7 @@
 @import './21-footer.css';
 @import './22-menu.css';
 @import './23-contraste.css';
-/* Novo design (30/10/2026): chrome gerado e ajustes das páginas interiores. */
-@import './30-chrome.css';
+/* Ajustes das páginas interiores (30/10/2026). */
 @import './31-novo.css';
+/* Desenho 2026: gerado por scripts/novo/build.py. Tem de ser o último. */
+@import './40-sf26.css';

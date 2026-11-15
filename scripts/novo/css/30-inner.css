@@ -1,0 +1,69 @@
+/* páginas interiores (HTML estático convertido): base nova por cima dos componentes de cada página */
+body.inner{margin:0;--serif:G,system-ui,sans-serif;--sans:G,system-ui,sans-serif;--bg:#F6F9FA;--bg2:#EDF3F6;--card:#FFFFFF;--ink:#04141C;--muted:#3F5967;--faint:#5E7885;--line:rgba(4,20,28,.14);--acc:#0B6E9E;--accbg:rgba(18,135,191,.07);--btn:#04141C;--btnink:#F6F9FA;--band:#0A2430;--bandink:#F6F9FA;--bandmuted:#C5D3D9;--shot:#EEF4F7;--px:var(--pad);--max:1680px;
+ background:var(--s-b);color:var(--s-n);font:400 16px/1.6 G,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.inner h1,.inner h2,.inner h3{font-family:G,system-ui,sans-serif;font-weight:300;margin:0;letter-spacing:-.045em;text-wrap:balance}
+.inner h2{font-size:clamp(2.3rem,4.8vw,4.6rem);line-height:1}
+.inner h3{font-size:clamp(1.3rem,1.7vw,1.6rem);line-height:1.15;letter-spacing:-.03em;font-weight:400}
+.inner em{font-style:normal}
+.inner h1 em,.inner h2 em{color:var(--s-d)}
+.inner main>section,.inner main>div>section{padding:clamp(80px,10vw,150px) 0;position:relative}
+.inner .eb{display:block;font:400 .8rem/1.4 G,system-ui,sans-serif;letter-spacing:0;text-transform:none;color:var(--s-d);margin:0 0 22px}
+.inner .eb i{display:none}
+.inner .lead{font-size:1.02rem;line-height:1.55;color:var(--s-t);max-width:46ch;margin:0}
+.inner .btn{white-space:nowrap;display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 26px;border-radius:99px;border:0;font:500 .9rem/1 G,system-ui,sans-serif;cursor:pointer;transition:background .3s,color .3s}
+.inner .btn.p{background:var(--s-n);color:var(--s-b)}.inner .btn.p:hover{background:var(--s-fl);color:#fff}
+.inner .lk{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:500;color:inherit;border-bottom:1px solid currentColor;padding:8px 0 4px}
+.inner .lk:hover{color:var(--s-fl)}
+.inner .sh2{display:grid;grid-template-columns:1.6fr 1fr;gap:clamp(24px,5vw,80px);align-items:start;margin-bottom:clamp(40px,6vw,84px)}
+.inner .sh2 .lead{justify-self:end;padding-top:.5em}
+/* hero */
+.inner .hwrap{padding:0}
+.inner .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;padding:0;overflow:hidden;color:var(--s-b);background:radial-gradient(60% 70% at 78% 46%,rgba(46,184,242,.2),rgba(4,20,28,0) 70%),var(--s-n)}
+.inner .hero::after{content:"";position:absolute;right:-6vw;bottom:-12vh;width:min(70vh,54vw);aspect-ratio:93.2/83.2;background:url("__SYMURL__") center/contain no-repeat;pointer-events:none;opacity:.5}
+.inner .hero>.w{position:relative;z-index:2;flex:1;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(40px,5vw,90px);align-items:center;width:100%;padding-top:128px;padding-bottom:56px}
+.inner .hero>.w:has(>:only-child){grid-template-columns:minmax(0,1fr)}
+.inner .hero>.w:has(>:only-child) h1{font-size:clamp(2.8rem,7vw,7.4rem);max-width:16ch}
+.inner .hero .eb{color:var(--s-b)}
+.inner .hero h1{font-size:clamp(2.6rem,5vw,5.3rem);line-height:.98;color:var(--s-b)}
+.inner .hero h1 em,.inner .band h2 em,.inner .band h3 em{color:var(--s-m)}
+.inner .hero .lead{margin-top:28px;color:#C5D3D9;font-size:1.06rem}
+.inner .hero .acts{display:flex;align-items:center;gap:26px;margin-top:40px;flex-wrap:wrap}
+.inner .hero .btn.p{background:var(--s-b);color:var(--s-n)}.inner .hero .btn.p:hover{background:var(--s-f);color:var(--s-n)}
+.inner .hero .lk{color:var(--s-b)}.inner .hero .lk:hover{color:var(--s-mi)}
+.inner .hfoot{position:relative;z-index:2;display:flex;justify-content:space-between;gap:20px;padding:16px var(--pad) 20px;border-top:1px solid var(--s-l);font-size:.8rem;color:var(--s-m)}
+.inner .hfoot a{color:inherit}.inner .hfoot a:hover{color:var(--s-b)}.inner .hfoot b{font-weight:400;color:var(--s-b)}
+/* faixa escura */
+.inner .band{background:var(--s-n2);color:var(--s-b)}
+.inner .band .eb{color:var(--s-m)}.inner .band .lead{color:#C5D3D9}
+.inner .band .btn.p{background:var(--s-b);color:var(--s-n)}.inner .band .btn.p:hover{background:var(--s-f)}
+/* perguntas */
+.inner .faq{display:grid;grid-template-columns:1fr 1.4fr;gap:clamp(30px,5vw,80px);align-items:start}
+.inner .faq .st{position:sticky;top:110px}
+.inner .qs{display:block}
+.inner details{border:0;border-top:1px solid var(--s-lp);border-radius:0;background:none}
+.inner .qs details:last-child{border-bottom:1px solid var(--s-lp)}
+.inner summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:20px 0;font:400 1.15rem/1.35 G,system-ui,sans-serif;min-height:44px}
+.inner summary::-webkit-details-marker{display:none}
+.inner summary i{flex:none;font:300 1.5rem/1 G,system-ui,sans-serif;font-style:normal;transition:transform .3s var(--eo)}
+.inner details[open] summary i{transform:rotate(45deg)}
+.inner details>p{padding:0 44px 22px 0;margin:0;color:var(--s-t);max-width:660px}
+.inner .band details{border-color:var(--s-l)}.inner .band details>p{color:#C5D3D9}
+/* contacto */
+.inner .contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(40px,6vw,110px);align-items:start}
+.inner .contact .lead{margin-top:24px!important}
+.inner .side{display:grid;margin-top:40px;border-top:1px solid var(--s-lp)}
+.inner .cc{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid var(--s-lp);font-size:1.15rem;color:inherit;transition:color .3s}
+.inner .cc:hover{color:var(--s-fl)}
+.inner .cc small{display:block;font-size:.75rem;color:var(--s-d);margin-bottom:2px}
+.inner .cic{display:none}
+@media(max-width:900px){
+.inner .sh2{grid-template-columns:1fr}.inner .sh2 .lead{justify-self:start;padding-top:0}
+.inner .hero{min-height:0}.inner .hero::after{display:none}
+.inner .hero>.w{grid-template-columns:minmax(0,1fr);gap:36px;padding-top:112px;padding-bottom:36px}
+.inner .hero h1{font-size:clamp(2.3rem,10vw,3.4rem)}
+.inner .hero>.w:has(>:only-child) h1{font-size:clamp(2.5rem,11vw,4rem)}
+.inner .hero .acts{margin-top:30px;gap:18px}
+.inner .hfoot{font-size:.72rem}
+.inner .faq,.inner .contact{grid-template-columns:minmax(0,1fr)}.inner .faq .st{position:static}
+.inner main>section,.inner main>div>section{padding:72px 0}
+}

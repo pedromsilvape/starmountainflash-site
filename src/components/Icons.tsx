@@ -1,10 +1,10 @@
 /** Os SVG do protótipo, tal e qual, reunidos num sítio só. */
+import { SIMBOLO_D, SIMBOLO_VB } from './novo/simbolo';
 
 export function Logo({ size = 26, stroke = '#fff' }: { size?: number; stroke?: string }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 32 32" fill="none" stroke={stroke} strokeWidth="3" strokeLinecap="square" aria-hidden="true">
-      <path d="M5 18 L16 7 L27 18" />
-      <path d="M5 27 L16 16 L27 27" />
+    <svg width={size} height={size} viewBox={SIMBOLO_VB} fill={stroke} aria-hidden="true">
+      <path d={SIMBOLO_D} />
     </svg>
   );
 }

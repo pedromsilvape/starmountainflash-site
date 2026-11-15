@@ -17,11 +17,11 @@ function useEn() {
 /** Nav, menu do telemóvel e pop-up do novo design, na língua do endereço. */
 export function Topo() {
   const en = useEn();
-  return <div className="sfc sfc-top" dangerouslySetInnerHTML={{ __html: en ? TOPO_EN : TOPO }} />;
+  return <div className="s-top" dangerouslySetInnerHTML={{ __html: en ? TOPO_EN : TOPO }} />;
 }
 
 /** Footer do novo design, na língua do endereço. */
 export function Rodape() {
   const en = useEn();
-  return <div className="sfc sfc-foot" dangerouslySetInnerHTML={{ __html: en ? RODAPE_EN : RODAPE }} />;
+  return <div className="s-foot" dangerouslySetInnerHTML={{ __html: en ? RODAPE_EN : RODAPE }} />;
 }
