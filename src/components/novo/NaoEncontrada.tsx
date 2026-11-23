@@ -1,6 +1,6 @@
 'use client';
 import { SIMBOLO_D, SIMBOLO_VB } from './simbolo';
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { HeroSm, SectionHead } from '@/components/Blocks';

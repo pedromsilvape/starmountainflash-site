@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import Script from 'next/script';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
