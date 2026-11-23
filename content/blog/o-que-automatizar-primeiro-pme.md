@@ -6,6 +6,7 @@ descricao: "Descobre que tarefas automatizar primeiro na tua PME: exemplos
   construir."
 categoria: Automação
 data: 2026-10-14
+atualizado: 2026-11-23
 capa: ""
 capaAlt: ""
 estado: "publicado"
@@ -76,8 +77,10 @@ O diagnóstico diz-te o que automatizar, e a dimensão do trabalho depende do qu
 - **Um pack de três fluxos**, quando o tempo perdido está repartido por várias tarefas.
 - **Um sistema à medida**, quando faz falta uma solução construída de raiz para a tua operação.
 
+Os valores de cada escalão, e a conta para saberes se compensa, estão em [Quanto custa uma automação com IA](/blog/quanto-custa-automacao-ia-empresa).
+
 Depois de estar a funcionar, uma automação precisa de acompanhamento, porque as ferramentas mudam e o negócio também. É para isso que serve a manutenção mensal: garantir que o que foi construído continua a fazer o seu trabalho.
 
 ## Por onde começar
 
-Se não sabes qual é a tua primeira automação, não precisas de adivinhar. Pede o Diagnóstico Flash através do [formulário de orçamento](#orcamento) e começamos por perceber onde está, de facto, o teu tempo.
+Se não sabes qual é a tua primeira automação, não precisas de adivinhar. Pede o Método StarMap através do [formulário de orçamento](#orcamento) e começamos por perceber onde está, de facto, o teu tempo.
