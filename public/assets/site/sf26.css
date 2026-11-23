@@ -217,7 +217,8 @@ body.home{margin:0;font:400 16px/1.5 G,system-ui,sans-serif;background:var(--s-n
 .home details[open] summary i::after{transform:none}
 .home details p{padding:0 40px 22px 0;color:#24404D;max-width:640px}
 @media(max-width:900px){.home .tl,.home .tr{top:80px;font-size:.72rem}
-.home .hero h1 span{font-size:clamp(2.3rem,11vw,4rem)}
+.home .hero h1 span{font-size:clamp(2.1rem,9.5vw,4rem);white-space:normal;max-width:calc(100% - 2*var(--pad));line-height:1.02}
+.home .h1b{text-align:right}
 .home .h1a{top:17%}
 .home .h1b{top:auto;bottom:31%}
 .home .bl{bottom:92px;right:var(--pad);max-width:none;font-size:.88rem}
@@ -329,3 +330,11 @@ body.inner{margin:0;--serif:G,system-ui,sans-serif;--sans:G,system-ui,sans-serif
 .inner .faq,.inner .contact{grid-template-columns:minmax(0,1fr)}.inner .faq .st{position:static}
 .inner main>section,.inner main>div>section{padding:72px 0}
 }
+
+/* Depoimentos curtos nas páginas de serviço */
+.qt3{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.4vw,32px);margin-top:clamp(48px,6vw,80px)}
+.qt3 figure{margin:0;border-top:1px solid var(--s-lp);padding-top:22px;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+.qt3 blockquote{margin:0;font-size:1.08rem;line-height:1.45;color:var(--s-t)}
+.qt3 figcaption{font-size:.85rem;color:var(--s-d)}
+.qt3 figcaption b{display:block;font-weight:500;color:var(--s-n)}
+@media(max-width:900px){.qt3{grid-template-columns:1fr}}

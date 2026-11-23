@@ -70,3 +70,5 @@ Há duas proteções que recomendo a qualquer formulário. A primeira é um camp
 - **Não confirmar ao cliente.** Sem confirmação, a pessoa não sabe se o pedido chegou e contacta o concorrente seguinte.
 - **Pedir dados a mais.** Cada campo extra reduz o número de pessoas que termina o formulário. Nome, contacto e a mensagem costumam bastar.
 - **Esquecer o RGPD.** O formulário deve dizer para que servem os dados e remeter para a política de privacidade.
+
+Ligar o formulário ao CRM e ao email é uma das [automações](/automacoes) que monto para PME. Se o seu site ainda não tem formulário, entra na [criação de websites](/websites).

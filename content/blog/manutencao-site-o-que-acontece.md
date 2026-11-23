@@ -84,3 +84,5 @@ Se o site traz pedidos de orçamento, cada semana com o formulário avariado sã
 Na Starmountain Flash, todos os sites que entrego têm a opção de manutenção mensal, que trata destes pontos e avisa antes de algo falhar. Se o teu site já está tão desatualizado que compensa refazê-lo, pede a proposta visual: é gratuita e sem compromisso.
 
 Quando foi a última vez que testaste o formulário do teu site?
+
+Se preferires não ter de pensar nisto, a [manutenção de websites](/websites) trata das atualizações e das pequenas alterações, com um valor fixo por mês ou só quando precisares.
