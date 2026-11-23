@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import type { Metadata } from 'next';
 import { HeroSm, JsonLd } from '@/components/Blocks';
 import Legal, { type Seccao } from '@/components/Legal';

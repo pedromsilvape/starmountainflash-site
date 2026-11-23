@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import type { Metadata } from 'next';
 import { HeroSm, JsonLd, NextStep, SectionHead } from '@/components/Blocks';
 import { CATEGORIA_EN, dataEn, todosOsPosts } from '@/lib/posts';

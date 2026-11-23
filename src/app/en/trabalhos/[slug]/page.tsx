@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { HeroSm, JsonLd, NextStep, SectionHead } from '@/components/Blocks';

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from '@/components/Ligacao';
 import type { ReactNode } from 'react';
 import type { Faq } from '@/data/faqs';
 import { ArrowUpRight } from './Icons';
