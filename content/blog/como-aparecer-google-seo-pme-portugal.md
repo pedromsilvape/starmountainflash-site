@@ -302,5 +302,3 @@ E, num mercado onde muitas pequenas empresas ainda têm websites desatualizados,
 Na **Starmountain Flash**, criamos websites e sistemas digitais pensados para ajudar empresas a serem encontradas, transmitir confiança e transformar visitas em oportunidades comerciais.
 
 Se o teu website está desatualizado, não aparece no Google ou simplesmente não está a gerar contactos, podemos analisar o que está a acontecer e perceber onde existe margem para melhorar.
-
-**[Pedir proposta gratuita](#orcamento)**

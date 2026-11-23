@@ -164,7 +164,7 @@ document.querySelectorAll('form.lp-form').forEach(function(f){
   var b=f.querySelector('button[type=submit]'),aviso=f.querySelector('.lp-erro'),txt=b.firstChild.nodeValue;
   f.addEventListener('submit',function(e){e.preventDefault();
     var d=new FormData(f);b.disabled=true;b.firstChild.nodeValue='A enviar\u2026';aviso.hidden=true;
-    fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:d.get('nome'),email:d.get('email'),servico:'Análise gratuita ao site',mensagem:'Site a analisar: '+d.get('site'),origem:'Landing page: análise gratuita',website:d.get('website')||''})})
+    fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({nome:d.get('nome'),email:d.get('email'),servico:'Análise gratuita ao site',mensagem:'Site a analisar: '+d.get('site'),origem:'Landing page: análise gratuita'+((new URLSearchParams(location.search).get('de')||'').replace(/[^a-z0-9-]/gi,'').slice(0,60)?' · '+(new URLSearchParams(location.search).get('de')||'').replace(/[^a-z0-9-]/gi,'').slice(0,60):''),website:d.get('website')||''})})
     .then(function(r){if(!r.ok)throw new Error(r.status);window.location.href='/analise-gratuita/obrigado';})
     .catch(function(){b.disabled=false;b.firstChild.nodeValue=txt;aviso.hidden=false;});
   });

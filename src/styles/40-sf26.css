@@ -141,3 +141,13 @@ details summary{font-family:G,system-ui,sans-serif!important;font-weight:400}
 .ck button{font-family:G,system-ui,sans-serif}.ck button.ok{background:var(--s-n);border-color:var(--s-n);color:var(--s-b)}.ck button.ok:hover{background:var(--s-fl)}
 .s-foot{margin-top:clamp(60px,8vw,110px)}
 @media(max-width:620px){.hero-sm .hero-body{padding-top:112px!important}.sec h2,.intro h2{font-size:clamp(1.9rem,8.4vw,2.5rem)}}
+
+/* Bloco de pedido dentro dos artigos do blog */
+.bcta{margin:44px 0;padding:28px 30px;background:var(--s-n);color:var(--s-b);border-radius:4px;display:grid;gap:10px}
+.bcta-fim{margin-top:0}
+.bcta-k{display:inline-flex;align-items:center;gap:8px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--s-mi)}
+.bcta-k i{width:6px;height:6px;border-radius:50%;background:var(--s-f)}
+.bcta .bcta-t{margin:0;font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2;letter-spacing:-.02em;color:var(--s-b)}
+.bcta .bcta-p{margin:0;font-size:1rem;line-height:1.55;color:var(--s-m);max-width:60ch}
+.bcta .bcta-b{justify-self:start;margin-top:8px;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 20px;border-radius:999px;background:var(--s-b);color:var(--s-n)!important;text-decoration:none!important;font-weight:500}
+.bcta .bcta-b:hover{background:var(--s-f);color:var(--s-n)!important}

@@ -16,6 +16,7 @@ faq:
     resposta: "Ajuda quando a página é nova ou foi corrigida. Se a página não mudou e o Google já a visitou sem a guardar, voltar a pedir raramente resolve: é preciso melhorar o conteúdo."
   - pergunta: "O meu site está no Google mas ninguém o encontra. Porquê?"
     resposta: "Normalmente porque não diz claramente que serviço oferece, não tem uma página por serviço ou é lento no telemóvel. É um problema de posição, não de indexação."
+tituloSeo: "Site não aparece no Google? 7 causas e como resolver"
 ---
 **Resposta curta:** se o seu site não aparece no Google, a causa está quase sempre num de dois sítios: ou o Google ainda não o tem no índice, ou tem e mostra-o tão abaixo que ninguém lá chega. São problemas diferentes, com soluções diferentes, por isso o primeiro passo é perceber em qual dos dois está.
 
@@ -98,5 +99,3 @@ Aconteceu no meu próprio site: depois de o refazer, o Search Console mostrava q
 Depende da causa. Um bloqueio corrigido hoje pode refletir-se em poucos dias, assim que o Google voltar a visitar o site. Um problema de posição leva semanas a meses, porque o Google precisa de tempo para reavaliar o conteúdo novo. E há uma coisa que convém saber: o Google não garante a indexação de nenhuma página. O que se pode fazer é tirar os obstáculos e dar-lhe boas razões para a guardar.
 
 Se está a pensar refazer o site por causa disto, o guia [WordPress, Wix ou site à medida](/blog/wordpress-wix-ou-site-a-medida) ajuda a escolher a base certa.
-
-*Quer saber em qual destas situações está o seu site? Faço uma [análise gratuita ao seu site](/analise-gratuita): vejo se está no Google, o que o está a travar e o que corrigir primeiro. Recebe o relatório por email em até 3 dias úteis, sem compromisso.*

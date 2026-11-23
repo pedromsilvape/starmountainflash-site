@@ -30,6 +30,8 @@ export type Post = {
   atualizado?: string;
   /** Título para o Google, se o título do artigo for longo demais (opcional). */
   tituloSeo?: string;
+  /** Oferta do bloco de pedido no artigo (opcional; por defeito depende da categoria). */
+  cta?: 'analise' | 'proposta' | 'automacao' | 'avaliacoes';
   capa?: string;
   capaAlt?: string;
   publicado: boolean;
@@ -82,6 +84,7 @@ function ler(ficheiro: string, lang: Lingua = 'pt'): Post | null {
     data: dataIso,
     atualizado: (data.atualizado && lerData(data.atualizado)) || undefined,
     tituloSeo: data.tituloSeo ? String(data.tituloSeo) : undefined,
+    cta: ['analise', 'proposta', 'automacao', 'avaliacoes'].includes(data.cta) ? data.cta : undefined,
     capa: data.capa ? String(data.capa) : undefined,
     capaAlt: data.capaAlt ? String(data.capaAlt) : undefined,
     // No CMS o campo chama-se "estado"; aqui interessa só publicado ou não.
@@ -172,6 +175,38 @@ export async function paraHtml(markdown: string, lang: Lingua = 'pt') {
   // Passa a abrir o formulário da proposta (ou a página de contacto, sem JS).
   const contacto = lang === 'en' ? '/en/contacto' : '/contacto';
   return String(ficheiro).replace(/href="#orcamento"/g, `href="${contacto}" data-modal`);
+}
+
+/** Oferta que o artigo mostra: a escolhida no artigo ou a da categoria. */
+export function ctaDoPost(post: Post): 'analise' | 'proposta' | 'automacao' | 'avaliacoes' {
+  if (post.cta) return post.cta;
+  if (post.categoria === 'Automação') return 'automacao';
+  if (post.categoria === 'Lojas online') return 'proposta';
+  return 'analise';
+}
+
+/** O artigo trata o leitor por "tu"? Conta as formas de cada tratamento no texto. */
+export function trataPorTu(post: Post): boolean {
+  const txt = ' ' + post.titulo + ' ' + post.markdown + ' ';
+  const tu = (txt.match(/\b(teu|tua|teus|tuas|tens|podes|queres|fazes|precisas)\b/gi) || []).length;
+  const voce = (txt.match(/\b(seu|sua|seus|suas|você|pode|quer|precisa)\b/gi) || []).length;
+  return tu > voce / 2;
+}
+
+/** Divide o HTML do artigo antes do 3.º título H2, para o bloco do meio. */
+export function dividirParaCta(html: string): [string, string] {
+  let pos = -1;
+  let n = 0;
+  const re = /<h2[\s>]/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(html))) {
+    n++;
+    if (n === 3) {
+      pos = m.index;
+      break;
+    }
+  }
+  return pos === -1 ? [html, ''] : [html.slice(0, pos), html.slice(pos)];
 }
 
 export function dataPt(iso: string) {

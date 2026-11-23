@@ -5,8 +5,12 @@ import type { Metadata } from 'next';
 import { Faqs, HeroSm, JsonLd, NextStep, SectionHead } from '@/components/Blocks';
 import { OG_PADRAO, faqLd, meta, migalhasLd, pessoaLd } from '@/lib/seo';
 import { site } from '@/data/site';
+import { BlogCta } from '@/components/BlogCta';
 import {
   temTraducao,
+  ctaDoPost,
+  dividirParaCta,
+  trataPorTu,
   dataPt,
   indice,
   paraHtml,
@@ -49,6 +53,9 @@ export default async function Artigo({ params }: { params: Promise<{ slug: strin
   const minutos = tempoDeLeitura(post.markdown);
   const outros = relacionados(post);
   const url = site.url + '/blog/' + post.slug;
+  const tipoCta = ctaDoPost(post);
+  const tu = trataPorTu(post);
+  const [antes, depois] = dividirParaCta(html);
 
   return (
     <>
@@ -97,7 +104,10 @@ export default async function Artigo({ params }: { params: Promise<{ slug: strin
               </figure>
             )}
             {/* O Markdown vem dos ficheiros do repositório, escritos no /admin. */}
-            <div className="prose" dangerouslySetInnerHTML={{ __html: html }} />
+            <div className="prose" dangerouslySetInnerHTML={{ __html: antes }} />
+            {depois && <BlogCta tipo={tipoCta} tu={tu} onde="meio" slug={post.slug} />}
+            {depois && <div className="prose" dangerouslySetInnerHTML={{ __html: depois }} />}
+            <BlogCta tipo={tipoCta} tu={tu} onde="fim" slug={post.slug} />
           </div>
         </div>
       </section>

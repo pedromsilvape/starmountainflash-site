@@ -14,7 +14,8 @@ faq:
     resposta: "Não. A política da Google proíbe pedir avaliações positivas de forma seletiva."
   - pergunta: "Posso apagar uma avaliação negativa?"
     resposta: "Não. Podes responder-lhe e denunciá-la à Google se violar as políticas."
-
+cta: "avaliacoes"
+tituloSeo: "Como pedir avaliações no Google sem violar as regras"
 ---
 Há ferramentas de avaliações que perguntam primeiro ao cliente "ficou satisfeito?" e só o mandam para o Google se carregar em sim. Quem carrega em não vai parar a um formulário interno. Parece uma forma inteligente de proteger a nota, mas a Google proíbe-a.
 
