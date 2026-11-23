@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = postPorSlug(slug);
   if (!post) return {};
   return meta({
-    titulo: post.titulo + ' | Starmountain Flash',
+    titulo: post.tituloSeo || post.titulo + ' | Starmountain Flash',
     descricao: post.descricao,
     caminho: '/blog/' + post.slug,
     alternativo: temTraducao(post.slug, 'en') ? { pt: '/blog/' + post.slug, en: '/en/blog/' + post.slug } : undefined,
@@ -71,6 +71,7 @@ export default async function Artigo({ params }: { params: Promise<{ slug: strin
             </Link>
             <div className="art-meta">
               <time dateTime={post.data}>{dataPt(post.data)}</time>
+              {post.atualizado && <span>Atualizado a {dataPt(post.atualizado)}</span>}
               <span>{minutos} min de leitura</span>
               <span>{post.categoria}</span>
             </div>
@@ -143,7 +144,7 @@ export default async function Artigo({ params }: { params: Promise<{ slug: strin
             url,
             mainEntityOfPage: url,
             datePublished: post.data,
-            dateModified: post.data,
+            dateModified: post.atualizado || post.data,
             articleSection: post.categoria,
             inLanguage: 'pt-PT',
             wordCount: post.markdown.trim().split(/\s+/).filter(Boolean).length,

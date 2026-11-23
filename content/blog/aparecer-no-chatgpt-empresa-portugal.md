@@ -55,3 +55,5 @@ Faz as perguntas que os teus clientes fariam, com as palavras deles e não com o
 As respostas variam conforme a pessoa e o sítio de onde pesquisa, por isso olha para a tendência e não para um resultado solto.
 
 Em empresas com várias marcas, filiais ou línguas, o risco maior é a contradição. Se um site diz uma morada e o perfil de uma filial diz outra, a IA junta as duas versões e responde mal. Nesses casos, antes de pensar em aparecer mais, vale a pena perguntar às ferramentas o que já dizem sobre a empresa.
+
+No serviço de [Visibilidade em IA](/visibilidade-ia) faço esse levantamento: vejo o que as ferramentas dizem hoje sobre a empresa, corrijo o que está contraditório no site e nos perfis, e acompanho os números mês a mês.

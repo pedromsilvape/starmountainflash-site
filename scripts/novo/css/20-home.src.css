@@ -89,7 +89,7 @@ summary i{flex:none;width:14px;height:14px;position:relative;margin-top:.35em}su
 details p{padding:0 40px 22px 0;color:#24404D;max-width:640px}
 @media(max-width:900px){
 .tl,.tr{top:80px;font-size:.72rem}
-.hero h1 span{font-size:clamp(2.3rem,11vw,4rem)}.h1a{top:17%}.h1b{top:auto;bottom:31%}
+.hero h1 span{font-size:clamp(2.1rem,9.5vw,4rem);white-space:normal;max-width:calc(100% - 2*var(--pad));line-height:1.02}.h1b{text-align:right}.h1a{top:17%}.h1b{top:auto;bottom:31%}
 .bl{bottom:92px;right:var(--pad);max-width:none;font-size:.88rem}.bl small{margin-top:8px}
 .br{bottom:18px;min-height:44px;padding:0 18px}.deg{left:var(--pad);transform:none;text-align:left;bottom:14px}.deg b{font-size:2.3rem}
 .ch{top:auto;bottom:112px;right:var(--pad);max-width:none;transform:none}.ch h2{font-size:clamp(1.6rem,6.6vw,2.4rem)}

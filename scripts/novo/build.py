@@ -198,14 +198,14 @@ def assets():
 
 # ---------------------------------------------------------------- página inicial
 NOVO = {
- 'pt': dict(tl='Websites e automações com IA', tr='Covilhã, Portugal', scroll='Faça scroll', l1='Trabalhos', ver='Ver trabalho',
+ 'pt': dict(tl='Starmountain Flash', h1a='Websites e automações', h1b='com IA para empresas.', tr='Covilhã, Portugal', scroll='Faça scroll', l1='Trabalhos', ver='Ver trabalho',
             ch=[('Clientes', 'A empresa é boa, mas quem pesquisa encontra a concorrência.'), ('Horas', 'Encomendas copiadas do email para o Excel, faturas lançadas uma a uma.'),
                 ('O que faço', 'Faço o site que é encontrado e ponho o trabalho repetido a correr sozinho.')],
             mk=('Dois módulos, uma rotação.', 'O símbolo é um S feito de dois módulos iguais. O segundo é o primeiro, rodado 180° em torno do centro.', 'O símbolo, construído'),
             pull=['Impecavelmente bem feito.', 'Simples, rápido e profissional.', 'Uma experiência muito positiva.'],
             nums=[('+8', 'Projetos entregues', ''), ('3', 'Sites para a UBI', None)],
             sobre=('Antes da contabilidade houve o Exército', 'Antes dos sites houve o Exército'), percurso='Conhecer o percurso', hero_stat='+8 projetos entregues · 3 deles para a Universidade da Beira Interior'),
- 'en': dict(tl='Websites and AI automations', tr='Covilhã, Portugal', scroll='Scroll', l1='Work', ver='View project',
+ 'en': dict(tl='Starmountain Flash', h1a='Websites and AI', h1b='automations for businesses.', tr='Covilhã, Portugal', scroll='Scroll', l1='Work', ver='View project',
             ch=[('Customers', 'The business is good, but anyone who searches finds a competitor instead.'), ('Hours', 'Orders copied from email into Excel, invoices entered one by one.'),
                 ('What I do', 'I build the site that gets found and set the repetitive work to run on its own.')],
             mk=('Two modules, one rotation.', 'The symbol is an S made of two identical modules. The second is the first, rotated 180° around the centre.', 'The symbol, constructed'),
@@ -255,7 +255,7 @@ def inicio(orig):
 <main id="main">
 <section class="stage hero" id="stage"><div class="pin"><canvas id="c3" aria-hidden="true"></canvas>
 <p class="tl">{n["tl"]}</p><p class="tr">{n["tr"]} · <span class="s-clock"></span></p>
-<h1><span class="h1a">High altitude.</span> <span class="h1b">Low latency.</span></h1>
+<h1><span class="h1a">{n["h1a"]}</span> <span class="h1b">{n["h1b"]}</span></h1>
 <div class="bl"><p>{lead}</p><small>{n["hero_stat"]}</small></div>
 <div class="deg" aria-hidden="true"><b id="deg">000°</b><span id="degl" data-l0="{n["scroll"]}" data-l1="{n["l1"]}">{n["scroll"]}</span></div>
 <a class="pill s br" href="{P(lang, "/contacto")}" data-modal>{t["cta"]} {AR}</a>
