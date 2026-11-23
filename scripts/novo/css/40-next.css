@@ -50,3 +50,14 @@ details summary{font-family:G,system-ui,sans-serif!important;font-weight:400}
 .bcta .bcta-p{margin:0;font-size:1rem;line-height:1.55;color:var(--s-m);max-width:60ch}
 .bcta .bcta-b{justify-self:start;margin-top:8px;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 20px;border-radius:999px;background:var(--s-b);color:var(--s-n)!important;text-decoration:none!important;font-weight:500}
 .bcta .bcta-b:hover{background:var(--s-f);color:var(--s-n)!important}
+/* Blog: destaques e filtro por tema */
+.bdest{padding-bottom:0}
+.bfiltro{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px}
+.bfiltro button{font:inherit;font-size:14px;padding:9px 16px;border-radius:99px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.bfiltro button span{opacity:.55;margin-left:4px;font-size:12px}
+.bfiltro button:hover{border-color:var(--ink)}
+.bfiltro button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.bfiltro button:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+.posts a.post[hidden]{display:none}
+.bdest+.sec{padding-top:clamp(56px,6vw,88px)}
+.posts .post .cat,.posts .post .soon{justify-self:start}
