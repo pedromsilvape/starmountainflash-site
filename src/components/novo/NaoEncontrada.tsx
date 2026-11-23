@@ -82,7 +82,7 @@ export default function NaoEncontrada({ trabalhos }: { trabalhos: string }) {
             {en
               ? 'Tell me what you need and start with a free visual proposal. '
               : 'Diga-me o que precisa e comece por uma proposta visual gratuita. '}
-            <a href="#orcamento" style={{ color: 'var(--emerald)', borderBottom: '1px solid' }}>
+            <a href={en ? '/en/contacto' : '/contacto'} data-modal style={{ color: 'var(--emerald)', borderBottom: '1px solid' }}>
               {en ? 'Free proposal →' : 'Proposta gratuita →'}
             </a>
           </p>

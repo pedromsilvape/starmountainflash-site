@@ -80,13 +80,13 @@ export function HeroSm({
             <p>{descricao}</p>
             {acoes === 'orcamento-whatsapp' && (
               <div className="ctas">
-                <a href="#orcamento" className="btn btn-light">
+                <a href={lang === 'en' ? '/en/contacto' : '/contacto'} data-modal className="btn btn-light">
                   {lang === 'en' ? 'Free proposal' : 'Proposta gratuita'}{' '}
                   <span className="ic">
                     <ArrowUpRight size={16} />
                   </span>
                 </a>
-                <a href="#whatsapp" data-wa className="btn btn-ghost">
+                <a href="https://wa.me/351937800553" target="_blank" rel="noopener" className="btn btn-ghost">
                   WhatsApp
                 </a>
               </div>

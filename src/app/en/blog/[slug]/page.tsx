@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = postPorSlug(slug, 'en');
   if (!post) return {};
   return meta({
-    titulo: post.titulo + ' | Starmountain Flash',
+    titulo: post.tituloSeo || post.titulo + ' | Starmountain Flash',
     descricao: post.descricao,
     caminho: '/en/blog/' + post.slug,
     lang: 'en',
@@ -45,7 +45,7 @@ export default async function ArtigoEn({ params }: { params: Promise<{ slug: str
   const post = postPorSlug(slug, 'en');
   if (!post) notFound();
 
-  const html = await paraHtml(post.markdown);
+  const html = await paraHtml(post.markdown, 'en');
   const titulos = indice(post.markdown);
   const mostrarIndice = temIndice(post.markdown);
   const minutos = tempoDeLeitura(post.markdown);
@@ -150,7 +150,7 @@ export default async function ArtigoEn({ params }: { params: Promise<{ slug: str
             url,
             mainEntityOfPage: url,
             datePublished: post.data,
-            dateModified: post.data,
+            dateModified: post.atualizado || post.data,
             articleSection: post.categoria,
             inLanguage: 'en',
             wordCount: post.markdown.trim().split(/\s+/).filter(Boolean).length,

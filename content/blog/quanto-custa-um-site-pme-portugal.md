@@ -1,9 +1,11 @@
 ---
 titulo: "Quanto custa um site para uma empresa em Portugal?"
 slug: "quanto-custa-um-site-pme-portugal"
-descricao: "Quanto custa um site para uma empresa em Portugal em 2026: valores de referência, freelancer, agência ou faça você mesmo, e o que perguntar antes de aceitar."
+descricao: "Um site para empresa custa entre 500 € e 5.000 €, uma loja online até 15.000 €. Valores de 2026 por tipo de site e o que perguntar antes de aceitar."
 categoria: "Websites"
 data: 2026-09-21
+atualizado: 2026-11-23
+tituloSeo: "Quanto custa um site em Portugal? Valores de 2026"
 capa: ""
 capaAlt: ""
 estado: "publicado"
@@ -14,10 +16,24 @@ faq:
     resposta: "Depende do projeto. Um profissional independente costuma ter contacto direto e preços mais ajustados. Uma agência tem mais pessoas envolvidas. O importante é o que fica escrito na proposta: âmbito, prazo, valor e acompanhamento."
   - pergunta: "Posso fazer o meu próprio site?"
     resposta: "Pode, com plataformas de arrastar e largar. Poupa no início, mas paga em tempo, e o resultado costuma ser mais fraco em velocidade e SEO."
+  - pergunta: "Quanto custa manter um site por mês?"
+    resposta: "Somando alojamento e manutenção, conte com poucos euros a cerca de 100 € por mês, conforme o tipo de site. O domínio .pt custa entre 5 € e 15 € por ano."
+  - pergunta: "O preço de um site inclui IVA?"
+    resposta: "Nem sempre. Confirme sempre no orçamento, porque a diferença pode ser de 23%. Na Starmountain Flash não é acrescentado IVA, ao abrigo do artigo 53.º do CIVA, por isso o valor da proposta é o valor final."
+  - pergunta: "Como fico a saber quanto custa o meu site?"
+    resposta: "Peça uma proposta visual gratuita. Vê primeiro como o site pode ficar e, se quiser avançar, recebe o orçamento ajustado ao que pediu."
 ---
 Um site profissional para uma empresa custa normalmente entre 500 € e 5.000 €. Uma loja online pode chegar aos 15.000 €. A diferença não é arbitrária: depende do tipo de site, do que ele tem de fazer e de quem o faz.
 
 Este guia explica os valores de referência, o que faz o preço subir ou descer, e o que deve perguntar antes de aceitar um orçamento.
+
+| Tipo de site | Valor de referência |
+|---|---|
+| Landing page | 500 € a 2.000 € |
+| Site institucional | 1.000 € a 5.000 € |
+| Loja online | 1.500 € a 15.000 € |
+| Plataforma à medida | acima de 10.000 € |
+| Manutenção | cerca de 20 € a 100 € por mês |
 
 ## Valores de referência em 2026
 
@@ -27,6 +43,8 @@ Este guia explica os valores de referência, o que faz o preço subir ou descer,
 - **Plataformas à medida** (como o [StudyOS](/trabalhos/studyos): áreas de membros, subscrições, sistemas internos): normalmente acima de 10.000 €
 
 São intervalos largos de propósito. Dois sites com "cinco páginas" podem custar valores muito diferentes, conforme o que está por trás.
+
+Se quer ver o que entra num site institucional feito à medida, está tudo descrito na página de [criação de websites](/websites).
 
 ## O que faz variar o preço
 

@@ -86,6 +86,22 @@ collections:
         time_format: false
         picker_utc: true
 
+      - label: Atualizado em
+        name: atualizado
+        widget: datetime
+        required: false
+        format: 'YYYY-MM-DD'
+        date_format: 'DD/MM/YYYY'
+        time_format: false
+        picker_utc: true
+        hint: Opcional. Preencher quando o artigo for revisto. Vai para o Google como data de atualização.
+
+      - label: Título para o Google
+        name: tituloSeo
+        widget: string
+        required: false
+        hint: Opcional. Até 60 caracteres. Se ficar vazio, usa o título do artigo.
+
       - label: Imagem de capa
         name: capa
         widget: image

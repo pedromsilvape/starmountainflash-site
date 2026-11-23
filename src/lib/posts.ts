@@ -26,6 +26,10 @@ export type Post = {
   descricao: string;
   categoria: Categoria;
   data: string;
+  /** Data da última revisão do conteúdo (opcional). Vai para o dateModified e o sitemap. */
+  atualizado?: string;
+  /** Título para o Google, se o título do artigo for longo demais (opcional). */
+  tituloSeo?: string;
   capa?: string;
   capaAlt?: string;
   publicado: boolean;
@@ -76,6 +80,8 @@ function ler(ficheiro: string, lang: Lingua = 'pt'): Post | null {
     descricao: String(data.descricao || '').slice(0, 155),
     categoria,
     data: dataIso,
+    atualizado: (data.atualizado && lerData(data.atualizado)) || undefined,
+    tituloSeo: data.tituloSeo ? String(data.tituloSeo) : undefined,
     capa: data.capa ? String(data.capa) : undefined,
     capaAlt: data.capaAlt ? String(data.capaAlt) : undefined,
     // No CMS o campo chama-se "estado"; aqui interessa só publicado ou não.
@@ -154,7 +160,7 @@ export function tempoDeLeitura(markdown: string) {
   return Math.max(1, Math.round(palavras / 200));
 }
 
-export async function paraHtml(markdown: string) {
+export async function paraHtml(markdown: string, lang: Lingua = 'pt') {
   const ficheiro = await unified()
     .use(remarkParse)
     .use(remarkGfm)
@@ -162,7 +168,10 @@ export async function paraHtml(markdown: string) {
     .use(rehypeSlug)
     .use(rehypeStringify)
     .process(markdown);
-  return String(ficheiro);
+  // Os artigos usam a âncora #orcamento, que não existe nas páginas do blog.
+  // Passa a abrir o formulário da proposta (ou a página de contacto, sem JS).
+  const contacto = lang === 'en' ? '/en/contacto' : '/contacto';
+  return String(ficheiro).replace(/href="#orcamento"/g, `href="${contacto}" data-modal`);
 }
 
 export function dataPt(iso: string) {

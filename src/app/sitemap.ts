@@ -41,8 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...trabalhosPublicados.flatMap((t) => par('/trabalhos/' + t.slug, 0.6, 'yearly')),
     ...todosOsPosts().flatMap((p) =>
       temTraducao(p.slug, 'en')
-        ? par('/blog/' + p.slug, 0.5, 'yearly', new Date(p.data))
-        : [{ url: `${site.url}/blog/${p.slug}`, lastModified: new Date(p.data), changeFrequency: 'yearly' as const, priority: 0.5 }],
+        ? par('/blog/' + p.slug, 0.5, 'yearly', new Date(p.atualizado || p.data))
+        : [{ url: `${site.url}/blog/${p.slug}`, lastModified: new Date(p.atualizado || p.data), changeFrequency: 'yearly' as const, priority: 0.5 }],
     ),
   ];
 }
