@@ -1,5 +1,6 @@
 import Link from '@/components/Ligacao';
 import type { Metadata } from 'next';
+import BlogLista from '@/components/BlogLista';
 import { HeroSm, JsonLd, NextStep, SectionHead } from '@/components/Blocks';
 import { dataPt, todosOsPosts } from '@/lib/posts';
 import { site } from '@/data/site';
@@ -9,6 +10,9 @@ const TITULO = 'Blog | Starmountain Flash';
 const DESCRICAO = 'Artigos práticos sobre websites, SEO, GEO e automação para empresas portuguesas.';
 
 export const metadata: Metadata = meta({ titulo: TITULO, descricao: DESCRICAO, caminho: '/blog', alternativo: { pt: '/blog', en: '/en/blog' } });
+
+/** Artigos de entrada: os que respondem às perguntas de quem está a decidir. Mostram-se os 3 primeiros que existirem. */
+const DESTAQUES = ['quanto-custa-um-site-pme-portugal', 'quanto-custa-automacao-ia-empresa', 'o-que-automatizar-primeiro-pme', 'aparecer-no-chatgpt-empresa-portugal'];
 
 /** Enquanto não houver artigos publicados, mostram-se os temas a caminho. */
 const emBreve = [
@@ -36,6 +40,8 @@ const emBreve = [
 
 export default function Blog() {
   const posts = todosOsPosts();
+  const destaques = DESTAQUES.map((s) => posts.find((p) => p.slug === s)).filter((p): p is (typeof posts)[number] => !!p).slice(0, 3);
+  const temas = Array.from(new Set(posts.map((p) => p.categoria)));
 
   return (
     <>
@@ -47,38 +53,58 @@ export default function Blog() {
         acoes="nenhuma"
       />
 
+      {destaques.length > 0 && (
+        <section className="sec bdest">
+          <SectionHead etiqueta="Começa por aqui" titulo="As perguntas" destaque="que mais me fazem." />
+          <div className="related">
+            {destaques.map((p) => (
+              <Link href={'/blog/' + p.slug} key={p.slug}>
+                <span className="cat">{p.categoria}</span>
+                <h3>{p.titulo}</h3>
+                <p>{p.descricao}</p>
+                <span className="d">{dataPt(p.data)}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="sec">
         <SectionHead
           etiqueta="Artigos"
-          titulo={posts.length ? 'Publicados.' : 'Brevemente.'}
-          destaque={posts.length ? 'Os mais recentes primeiro.' : 'Os primeiros temas.'}
+          titulo={posts.length ? 'Todos os artigos.' : 'Brevemente.'}
+          destaque={posts.length ? 'Filtra por tema.' : 'Os primeiros temas.'}
         >
           <p>Artigos curtos e práticos, escritos para quem gere uma PME e não tem tempo a perder.</p>
         </SectionHead>
 
-        <div className="posts">
-          {posts.length
-            ? posts.map((p) => (
-                <Link className="post" href={'/blog/' + p.slug} key={p.slug}>
-                  <span className="d">{dataPt(p.data)}</span>
-                  <div>
-                    <h3>{p.titulo}</h3>
-                    <p>{p.descricao}</p>
-                  </div>
-                  <span className="cat">{p.categoria}</span>
-                </Link>
-              ))
-            : emBreve.map((p) => (
-                <article className="post" key={p.titulo}>
-                  <span className="d">{p.cat}</span>
-                  <div>
-                    <h3>{p.titulo}</h3>
-                    <p>{p.texto}</p>
-                  </div>
-                  <span className="soon">Em breve</span>
-                </article>
-              ))}
-        </div>
+        {posts.length ? (
+          <BlogLista
+            todos="Todos"
+            temas={temas.map((c) => ({ chave: c, nome: c }))}
+            itens={posts.map((p) => ({
+              href: '/blog/' + p.slug,
+              titulo: p.titulo,
+              descricao: p.descricao,
+              data: dataPt(p.data),
+              cat: p.categoria,
+              chave: p.categoria,
+            }))}
+          />
+        ) : (
+          <div className="posts">
+            {emBreve.map((p) => (
+              <article className="post" key={p.titulo}>
+                <span className="d">{p.cat}</span>
+                <div>
+                  <h3>{p.titulo}</h3>
+                  <p>{p.texto}</p>
+                </div>
+                <span className="soon">Em breve</span>
+              </article>
+            ))}
+          </div>
+        )}
       </section>
 
       {posts.length > 0 && <NextStep />}
