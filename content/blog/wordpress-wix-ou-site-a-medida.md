@@ -16,6 +16,8 @@ faq:
     resposta: "O programa sim. Paga o domínio, o alojamento, os temas e plugins premium que usar e, se não for o próprio a fazê-lo, a manutenção."
   - pergunta: "Um site à medida é mais difícil de atualizar?"
     resposta: "Só se não tiver painel de gestão. Com painel, os textos e artigos editam-se como em qualquer outra plataforma; o código só é preciso para mudar funcionalidades."
+cta: "proposta"
+tituloSeo: "WordPress, Wix ou site à medida? Custos e diferenças"
 ---
 **Resposta curta:** para testar uma ideia ou ter uma presença simples com orçamento mínimo, o Wix chega. Para um site com muitas páginas, blog ou loja, e que a empresa quer controlar a longo prazo, o WordPress é a escolha mais comum. Um site à medida faz sentido quando o site tem de fazer algo que as plataformas não fazem bem: integrações, áreas de cliente, desempenho exigente ou um design que não cabe num tema.
 
@@ -74,4 +76,4 @@ Nos projetos para clientes, a escolha depende do que o site tem de fazer. A land
 
 Para saber quanto custa cada opção, veja o guia [quanto custa um site para uma PME em Portugal](/blog/quanto-custa-um-site-pme-portugal).
 
-*Não sabe qual é a melhor opção para o seu caso? [Peça uma proposta visual gratuita](#orcamento) e veja a solução que faz sentido para o seu site. O que entra num site feito à medida está descrito na página de [criação de websites](/websites).*
+O que entra num site feito à medida está descrito na página de [criação de websites](/websites).

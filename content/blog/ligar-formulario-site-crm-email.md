@@ -1,7 +1,7 @@
 ---
 titulo: "Como ligar o formulário do site ao CRM e ao email"
 slug: "ligar-formulario-site-crm-email"
-descricao: "O que acontece a um pedido depois de alguém carregar em Enviar, como o fazer chegar ao CRM e ao email sem copiar nada à mão, e que ferramentas gratuitas servem para uma pequena empresa."
+descricao: "Como fazer cada pedido do formulário do site chegar ao CRM e ao email sem copiar nada à mão, e que ferramentas gratuitas servem a uma pequena empresa."
 categoria: "Automação"
 data: 2026-10-09
 capa: ""

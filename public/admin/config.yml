@@ -96,6 +96,17 @@ collections:
         picker_utc: true
         hint: Opcional. Preencher quando o artigo for revisto. Vai para o Google como data de atualização.
 
+      - label: Oferta no artigo
+        name: cta
+        widget: select
+        required: false
+        options:
+          - { label: "Análise gratuita ao site", value: "analise" }
+          - { label: "Proposta visual gratuita", value: "proposta" }
+          - { label: "Automações", value: "automacao" }
+          - { label: "Análise ao perfil Google", value: "avaliacoes" }
+        hint: Opcional. Se ficar vazio, usa a análise gratuita (ou automações, nos artigos de automação).
+
       - label: Título para o Google
         name: tituloSeo
         widget: string

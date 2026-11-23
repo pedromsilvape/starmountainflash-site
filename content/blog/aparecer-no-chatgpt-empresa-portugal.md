@@ -1,7 +1,7 @@
 ---
 titulo: "O que o ChatGPT precisa para recomendar a tua empresa em Portugal"
 slug: aparecer-no-chatgpt-empresa-portugal
-descricao: "O que mudei no meu site para aparecer nas respostas de IA em todo o país, o que dizem a OpenAI e a Google e como testar se a tua empresa já aparece."
+descricao: "O que mudei no meu site para aparecer nas respostas do ChatGPT e do Google, o que dizem a OpenAI e a Google, e como testar se a tua empresa já aparece."
 categoria: "SEO e IA"
 data: 2026-10-31
 capa: ""
@@ -16,7 +16,7 @@ faq:
     resposta: "Não. Parte da mesma base: um site indexado, rápido e claro."
   - pergunta: "Preciso de um llms.txt?"
     resposta: "Para a Google, não. Para outras ferramentas pode ajudar, mas não é por aí que se começa."
-
+tituloSeo: "Como fazer o ChatGPT recomendar a tua empresa"
 ---
 Trabalho a partir da Covilhã com empresas do Porto, de Paredes, de Lisboa e de outros pontos do país. Por isso, quando penso em aparecer no ChatGPT, a pergunta que me interessa é a de alguém em Braga ou em Faro que quer um site para a empresa e pede uma sugestão. Foi com essa pergunta na cabeça que revi o meu próprio site, e é o mesmo trabalho que faço para clientes no serviço de [Visibilidade em IA](https://starmountainflash.pt/visibilidade-ia).
 

@@ -22,6 +22,7 @@ faq:
     resposta: "Nem sempre. Confirme sempre no orçamento, porque a diferença pode ser de 23%. Na Starmountain Flash não é acrescentado IVA, ao abrigo do artigo 53.º do CIVA, por isso o valor da proposta é o valor final."
   - pergunta: "Como fico a saber quanto custa o meu site?"
     resposta: "Peça uma proposta visual gratuita. Vê primeiro como o site pode ficar e, se quiser avançar, recebe o orçamento ajustado ao que pediu."
+cta: "proposta"
 ---
 Um site profissional para uma empresa custa normalmente entre 500 € e 5.000 €. Uma loja online pode chegar aos 15.000 €. A diferença não é arbitrária: depende do tipo de site, do que ele tem de fazer e de quem o faz.
 
@@ -102,5 +103,3 @@ A crítica mais comum aos freelancers é saberem fazer o site mas não o pôr a 
 - **Vende produtos?** Uma loja online, mesmo que comece pequena.
 
 Um site barato que não traz contactos sai sempre mais caro do que um site pensado para vender.
-
-*Quer saber quanto custaria o seu site? [Peça uma proposta visual gratuita](#orcamento): vê primeiro como pode ficar e, se quiser avançar, recebe o orçamento ajustado ao que pediu.*
