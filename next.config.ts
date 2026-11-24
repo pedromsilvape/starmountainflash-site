@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 import path from 'node:path';
 import type { NextConfig } from 'next';
 
@@ -16,28 +17,21 @@ const nextConfig: NextConfig = {
     qualities: [75, 90],
   },
   async rewrites() {
-    // Página inicial e páginas de serviço: HTML estático em public/, em PT e EN
-    // (gerado a partir do protótipo; fontes e imagens em public/assets/site/).
-    const servicos = ['websites', 'lojas-online', 'visibilidade-ia', 'avaliacoes-google', 'starmap', 'automacoes', 'assistente-interno', 'sobre', 'metodo', 'contacto'];
+    // Site v5: todas as páginas são HTML estático em public/, em PT e EN,
+    // geradas a partir do protótipo validado (ver site-v5/README.md).
+    // A lista vem de site-v5/paginas.json. beforeFiles: ganham às rotas React,
+    // que ficam só para artigos novos do blog ainda sem versão estática e para o 404.
+    const paginas: string[] = JSON.parse(fs.readFileSync(path.join(__dirname, 'site-v5/paginas.json'), 'utf8'));
     return {
-      // Antes das rotas da app, para o "/" não cair em nenhuma página React.
       beforeFiles: [
         { source: '/', destination: '/inicio/index.html' },
-        { source: '/en', destination: '/en/index.html' },
+        ...paginas.map((p) => ({ source: `/${p}`, destination: `/${p}/index.html` })),
       ],
       afterFiles: [
         // O painel Decap e uma pagina estatica em public/admin/.
         { source: '/admin', destination: '/admin/index.html' },
-        { source: '/analise-gratuita', destination: '/analise-gratuita/index.html' },
-        { source: '/analise-gratuita/obrigado', destination: '/analise-gratuita/obrigado/index.html' },
-        { source: '/en/analise-gratuita', destination: '/en/analise-gratuita/index.html' },
-        { source: '/en/analise-gratuita/obrigado', destination: '/en/analise-gratuita/obrigado/index.html' },
         // Cartão digital do Web Summit, página estática em public/card/.
         { source: '/card', destination: '/card/index.html' },
-        ...servicos.flatMap((s) => [
-          { source: `/${s}`, destination: `/${s}/index.html` },
-          { source: `/en/${s}`, destination: `/en/${s}/index.html` },
-        ]),
       ],
       fallback: [],
     };
