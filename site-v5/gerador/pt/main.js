@@ -10,6 +10,12 @@ import SYM from './sym.js';
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const MOB = innerWidth < 768;
 const DPR = Math.min(devicePixelRatio, MOB ? 1.5 : 2);
+const LITE = (() => { try { const c = document.createElement('canvas'), g = c.getContext('webgl'); if (!g) return true;
+  const e = g.getExtension('WEBGL_debug_renderer_info'); const r = e ? String(g.getParameter(e.UNMASKED_RENDERER_WEBGL)) : '';
+  const l = g.getExtension('WEBGL_lose_context'); if (l) l.loseContext(); return /swiftshader|llvmpipe|softpipe|software|basic render/i.test(r); } catch (e) { return true; } })();
+if (LITE) document.documentElement.classList.add('lite');
+/* inicia uma cena só quando o elemento está perto do ecrã */
+const near = (el, fn) => { if (!el) return; const o = new IntersectionObserver(es => { if (es[0].isIntersecting) { o.disconnect(); fn(); } }, { rootMargin: '120% 0px' }); o.observe(el); };
 const clamp01 = v => v < 0 ? 0 : v > 1 ? 1 : v;
 const smooth = (a, b, x) => { const t = clamp01((x - a) / (b - a)); return t * t * (3 - 2 * t); };
 const lerp = (a, b, t) => a + (b - a) * t;
@@ -146,7 +152,7 @@ void main(){vec2 p=vUv-0.5;float r=length(p)*2.0;float core=exp(-r*r*16.0);float
 vec3 c=(uColCore*core+uColMid*halo)*uGlow*flick*boost*uBrightness;float a=clamp(core+halo,0.0,1.0)*uAlpha;gl_FragColor=vec4(c,a);}`;
 let heroP = 0;
 (function burst() {
-  const cv = $('#burst'); if (!cv) return;
+  const cv = $('#burst'); if (!cv || LITE) return;
   const CFG = { cameraZ: 4, rotateSpeed: .24, coreSize: .39, coreGlow: .59, bloomStr: .5, bloomRadius: 0, bloomThresh: .11, lineBrightness: .55, sway: .19, swaySpeed: .6,
     sparkBrightness: .36, sparkSize: .05, twinkle: .1, colCore: '#ffffff', colInner: '#D6E6F5', colMid: '#A9C8E8', colOuter: '#4A5C6A', coreColor: '#E8F1FA', coreHalo: '#9BB8D6',
     filaments: MOB ? 40 : 60, sparks: MOB ? 400 : 700, spread: 2.65 };
@@ -213,7 +219,8 @@ $$('.mrow').forEach(row => { const tr = row.firstElementChild, dir = row.dataset
   tick(() => { s += (scrollY * sp - s) * .12; const m = ((s % ONE) + ONE) % ONE; const off = dir === 'left' ? -m : -(ONE - m); tr.style.transform = `translate3d(${off}%,0,0)`; }); });
 
 /* ---------- Gravity field (physics spheres) ---------- */
-(function gravity() {
+(function gravity() { const s0 = $('#gravity'); if (!s0 || LITE) return; near(s0, gravityInit); })();
+function gravityInit() {
   const sec = $('#gravity'); if (!sec) return; const cv = $('#gcanvas'), bg = $('#gbg');
   const r = new THREE.WebGLRenderer({ canvas: cv, antialias: true, alpha: true, powerPreference: 'high-performance' });
   r.setPixelRatio(DPR); r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 1.15;
@@ -288,7 +295,7 @@ $$('.mrow').forEach(row => { const tr = row.firstElementChild, dir = row.dataset
       if (fly < .02) { if (b.pos.z < -2) { b.pos.z = -2; b.vel.z *= -.3; } else if (b.pos.z > 2) { b.pos.z = 2; b.vel.z *= -.3; } }
       dp.copy(b.pos).sub(b.g.position); if (dp.lengthSq() > 1e-6) { ax.set(dp.y, -dp.x, 0).normalize(); b.g.rotateOnWorldAxis(ax, dp.length() / b.radius * .95); } b.g.position.copy(b.pos); }
     r.render(sc, cam); });
-})();
+}
 
 /* ---------- Cylinder stack ---------- */
 (function cyl() { const sec = $('#cyl'); if (!sec) return; const cards = $$('#cyl .ccard'), bgs = $$('#cyl .cbg'), idx = $('#cyl .cidx'), nm = $('#cyl .cname'); const n = cards.length; let cur = 0;
@@ -300,7 +307,8 @@ $$('.mrow').forEach(row => { const tr = row.firstElementChild, dir = row.dataset
     const k = Math.max(0, Math.min(n - 1, Math.round(f))); idx.textContent = String(k + 1).padStart(2, '0') + ' / ' + String(n).padStart(2, '0'); nm.textContent = cards[k].dataset.name; const go = $('#cyl .cgo'); if (go) go.href = cards[k].dataset.href; }); })();
 
 /* ---------- Chrome S (real logo extruded) ---------- */
-function chrome(cv, opts) {
+function chrome(cv, opts) { if (LITE) return; near(cv.parentElement || cv, () => chromeInit(cv, opts)); }
+function chromeInit(cv, opts) {
   const r = new THREE.WebGLRenderer({ canvas: cv, antialias: true, alpha: true }); r.setPixelRatio(DPR); r.setClearColor(0, 0);
   r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = .9;
   const sc = new THREE.Scene(), cam = new THREE.PerspectiveCamera(42, 1, .1, 100); cam.position.set(0, 0, 8);

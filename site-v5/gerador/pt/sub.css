@@ -576,3 +576,5 @@ header.lp{display:flex;justify-content:space-between;align-items:center}
 .ckb .ckc input{margin-top:.2rem;accent-color:#06141B;width:1rem;height:1rem;flex:none}.ckb .ckc b{display:block;color:var(--n0);font-weight:500}
 .ckb .ckbt{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
 .sf-err{margin-top:.8rem;font-size:.82rem;line-height:1.45;color:#C2410C}.sf-err[hidden]{display:none}
+.lite #burst{background:radial-gradient(circle at 50% 46%,#fff 0,#E8F1FA .6%,rgba(155,184,214,.55) 2.2%,rgba(74,92,106,.22) 9%,rgba(0,0,0,0) 26%),#000}
+.lite #hero.sub #burst{background:radial-gradient(circle at 74% 50%,#fff 0,#E8F1FA .6%,rgba(155,184,214,.55) 2.2%,rgba(74,92,106,.22) 9%,rgba(0,0,0,0) 26%),#000}
