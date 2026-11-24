@@ -56,7 +56,7 @@ def links(t, sub, slug=None):
 
 # ---------- home
 cbg = '<script>document.querySelectorAll(".cbg img").forEach(function(im){im.src=document.querySelectorAll(".ccard img")[+im.dataset.i].src})</script>'
-home = links(head + body + cbg + tail, False)
+home = links(re.sub(r'<div id="pre">.*?</div></div></div>\n?', '', head, flags=re.S) + body + cbg + tail, False)  # sem preloader (PageSpeed)
 os.makedirs(OUT, exist_ok=True)
 open(f'{OUT}/index.html', 'w').write(links(fill(home), False))
 
