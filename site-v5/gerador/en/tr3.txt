@@ -1,0 +1,303 @@
+700|Content organised to be understood and cited by ChatGPT, Gemini and Perplexity.
+701|Connected contact
+702|A form that reaches your email, a WhatsApp button and one-tap calling.
+703|Legal pages
+704|Privacy policy, cookies and a link to the Complaints Book, as the law requires.
+705|Domain in your name
+706|I help register and set it up. The domain is always in the company's name.
+707|03 · Work
+708|Live websites,
+709|from real clients.
+710|See all work
+711|UBI website: Universidade da Beira Interior (dei.ubi.pt)
+712|Planet Trading website: 3D landing page (comunidadeplanet.pt)
+713|StudyOS website: Web platform (gestaocrew.pt)
+714|Beatriz Nunes website: Personal trainer (personaltrainerbeatriznunes.pt)
+715|04 · Maintenance
+716|launch.
+717|Monthly retainer
+718|Updates and small changes, for a fixed monthly fee.
+719|One-off changes
+720|No monthly commitment. You only ask when you need it.
+721|Websites,
+722|As a guide, a landing page costs between €500 and €2,000 and a company website between €1,000 and €5,000, depending on what the site needs to do. The guide
+723|The deadline is set in the proposal, before starting. A landing page is the quickest format; a company website takes longer, depending on the number of pages.
+724|Do I need to have the text and photos?
+725|It helps, but it isn't required. I structure the text from what you tell me about the business. Your own photos always work better than stock images.
+726|Can I update the website myself?
+727|If you need frequent updates, such as news, products or team, that's planned in the proposal. For everything else, there's monthly maintenance or one-off changes.
+728|What is GEO?
+729|GEO (Generative Engine Optimization) means preparing the website to be understood and cited by AI engines such as ChatGPT, Gemini or Perplexity. It involves clear content, FAQs and structured data, on top of traditional SEO.
+730|online presence services.
+731|Shopify or custom-built, with payments, shipping and invoicing set up.
+732|Showing up when clients ask ChatGPT, Perplexity or Gemini.
+733|A review request to every client and a reply to every review on the profile.
+734|See how it could look before you decide.
+735|Ask for a free visual proposal. I'll show you a first version of the website and, if you like it, send a quote tailored to what you need.
+736|Online store development · Starmountain Flash
+737|Online stores that sell,
+738|without the management hassle.
+739|Stores on Shopify or custom-built, with catalogue, payments and shipping set up for the Portuguese market, and training to manage everything yourself.
+740|Shopify or custom-built
+741|Example Store
+742|new order
+743|TIN
+744|Tinned fish
+745|Sardines in olive oil
+747|6 tins · total incl. shipping
+748|Order #1048 confirmed
+749|Invoice issued
+750|Shipping label created
+751|Email with the tracking code
+752|Fictitious product and store.
+753|01 · Who it's for
+754|Three different
+755|starting points.
+756|The starting point changes how the store is designed, but the goal is the same: selling without spending the day managing.
+757|Sells through messages
+758|Brands that sell through Instagram messages today and want their own store.
+759|Physical shop
+760|Wants to sell online too
+761|Shops with an open door that want to reach people who can't come in.
+762|Old store
+763|Has a store, but it doesn't work
+764|Stores that are hard to manage or don't sell, and need rebuilding.
+765|02 · Platform
+766|Shopify or custom-built.
+767|It depends on the business.
+768|I explain the differences before you decide, including the monthly costs of each option.
+769|Option 01
+770|The most widely used e-commerce platform in the world. Reliable, secure and easy to manage day to day, even without technical knowledge.
+771|Physical product catalogues, brands that want to grow fast
+772|Management
+773|A simple dashboard for products, orders and customers
+774|Costs
+775|Monthly platform subscription, paid directly by the client
+776|Partnership
+777|I'm a Shopify Partner: I build the store and transfer it to your name
+778|Option 02
+779|Custom-built store
+780|Built from scratch for what the business needs, when off-the-shelf platforms don't fit the sales model.
+781|Services, bookings, subscriptions, specific pricing rules
+782|A dashboard designed around your process
+783|Hosting and services used, defined in the proposal
+784|03 · What's included
+785|Everything set up
+786|before the store opens.
+787|Storefront
+788|Organised catalogue
+789|Products, variants, categories and filters designed for shoppers.
+790|Product SEO
+791|Product pages ready to show up on Google and in AI engines.
+792|Purchase
+793|Payments
+794|Payment methods used in Portugal, depending on the platform chosen.
+795|Automatic emails
+796|Order confirmation, shipping and abandoned cart recovery.
+797|Delivery
+798|Shipping and rates
+799|Shipping rules, zones and free shipping set up to suit you.
+800|Invoicing
+801|Connection to the invoicing software, where the platform allows it.
+802|Terms, returns, privacy and the Complaints Book, as the law requires.
+803|Training
+804|A session to learn how to manage products, orders and customers yourself.
+805|Store and automation together.
+806|A store creates repetitive work: orders to log, stock to update, customers to answer. Much of that can be automated from the start.
+807|See automations
+808|Online stores,
+809|How much does an online store cost?
+810|It depends on the platform, the number of products and the integrations. I start with a free visual proposal and, if you want to go ahead, send a quote tailored to what you asked for.
+811|What monthly costs does a store have?
+812|The platform and the payment methods have their own costs, paid directly by the client to those services. I explain them in the proposal so there are no surprises.
+813|Can I manage the products myself?
+814|Yes. Training to manage products, orders and customers is included.
+815|Can I move the products from my old store?
+816|Yes, as long as the old platform allows the data to be exported. I check that before starting.
+817|There's no VAT to add on my work: the activity is exempt under article 53 of the Portuguese VAT Code.
+818|Landing pages and company websites, custom-designed and built in code.
+819|See your store before you decide.
+820|Ask for a free visual proposal. I'll show you how the store could look and, if you like it, send a quote tailored to what you need.
+821|AI visibility (GEO) · Starmountain Flash
+822|AI visibility · GEO
+823|When people ask AI,
+824|does your company show up?
+825|People who need a service in your area already ask ChatGPT before opening Google. They get two or three names and call one of them. I check whether yours is in that answer and fix the website so that it is.
+826|Free check
+827|Assistant's answer
+828|example
+829|A client's question
+830|Sports physiotherapy in Braga, who do you recommend?
+836|Example Clinic
+837|your company
+840|Your company doesn't appear in this answer
+841|Illustrative example with fictitious companies.
+842|assistants that cite it
+843|01 · Why now
+844|In an AI answer
+845|there's no sixth place.
+846|On Google, whoever came sixth still got the odd visit. In ChatGPT the list ends at the third name, and whoever isn't on it doesn't get contacted.
+847|Traditional search
+848|result
+849|10 results to compare
+850|The client would open four or five sites and choose.
+851|AI answer
+852|Company A
+853|Company B
+854|Company C
+855|The rest don't appear
+856|2 to 3 recommendations
+857|Now they read one answer and choose from it.
+858|of professionals and students surveyed in Portugal use ChatGPT.
+859|“IA: Impacto e Futuro 2025”, Magma Studio, CIP and DSPA
+860|assistants analysed in each audit: ChatGPT, Perplexity, Gemini and Google AI.
+861|02 · The work
+862|In order, and always
+863|with the same questions.
+864|The questions in month one are the same as in month six. That's the only way to tell whether anything changed.
+865|Week 1
+866|Audit
+867|20 to 30 real questions for your sector and area, and who gets recommended in each.
+868|Competitors that show up
+869|Fix plan
+870|Weeks 2 to 4
+871|Technical fixes
+872|Structured data, llms.txt and pages that answer what clients ask.
+873|On the website you already have
+874|Authority
+875|Google profile, Bing, directories and the same details everywhere.
+876|Address, phone, opening hours
+877|Every month
+878|The same questions measured again, a monthly report and new improvements.
+879|One-page report
+880|03 · What I change on the site
+881|I work on your
+882|website's code.
+883|An AI assistant doesn't see the site's photos or colours. It reads the code and the data in it, and that's what it uses to decide who to recommend.
+886|// what the company is, where and for whom
+890|"Example Clinic"
+898|# Example Clinic
+899|> Sports physiotherapy and rehabilitation in Braga.
+900|## Services
+901|- Sports physiotherapy - Post-surgery rehabilitation
+902|## Contact
+903|- Rua Exemplo, 12, Braga
+904|# let AI assistants read the site
+910|Illustrative example with a fictitious company.
+911|Structured data
+912|Tells AI, without ambiguity, what the company does, where and for whom.
+913|A plain-text summary of the site, designed for language models.
+914|AI crawler access
+915|Making sure GPTBot, PerplexityBot and others can read the site.
+916|Content that answers
+917|Pages and FAQs written to answer what clients ask.
+918|04 · Monthly report
+919|Every month,
+920|the same numbers.
+921|You get one page with the questions where the company appeared and what I did that month. The figures below are an example.
+922|Questions where the company is recommended
+923|Example
+924|Month 1
+925|Month 2
+926|Month 3
+927|Month 4
+928|Month 5
+929|Month 6
+930|By assistant
+931|The same 30 questions measured every month.
+932|05 · What's included
+933|Always starts
+934|with the audit.
+935|What happens next depends on what it shows. I do the audit, the fixes and the report myself.
+936|Visibility audit
+937|20 to 30 questions for your sector and area
+938|4 AI assistants analysed
+939|Competitors showing up in your place
+940|Plan with the priority fixes
+941|Request a free check
+942|Structured data and llms.txt
+943|Pages and FAQs
+944|Google profile, Bing and directories
+945|Address, phone and opening hours consistent everywhere
+946|Monthly follow-up
+947|The same questions measured again, with a one-page report
+948|New content when questions come up that the site doesn't answer
+949|Adjustments when assistants change how they choose
+950|GEO (Generative Engine Optimization) is optimisation for AI answer engines such as ChatGPT, Perplexity, Gemini and Google's AI overviews. The goal is for your company to be cited in the answers they give your clients.
+951|Does it replace SEO?
+952|No, the two add up. Many foundations are the same (a fast site, clear content, a complete Google profile), but AI picks its sources differently from a list of results.
+953|Do you guarantee first place?
+954|No. Nobody controls an AI assistant's answers. What I can guarantee is to measure your presence every month and show you what was done to increase it.
+955|The technical fixes are done in the first weeks. Assistants take a few weeks to reflect the changes, so progress is read over several months.
+956|Do I need a new website?
+957|In most cases, no. The fixes are made on the website you already have. If that isn't possible, I tell you the alternatives in the audit.
+958|Does it work for any sector?
+959|It works best for companies clients look for by need or by area: technical services, healthcare, training, retail and industry.
+960|See what AI says about your sector.
+961|I ask ChatGPT and Perplexity a few questions about your sector and send you the answers as they appear, with or without your company. The check is free.
+962|See what AI says
+963|about your sector.
+964|Google reviews · Starmountain Flash
+965|Happy customers
+966|forget to leave a review.
+967|Unhappy ones rarely forget. I set up a system that asks every client for a review right after the service and replies to every review that reaches your Google profile, good and bad.
+968|Free profile review
+969|Google profile
+970|new review
+971|Ana R. · ★★★★★ · now
+972|Impeccable service, I'll be back.
+973|Owner's reply
+974|Thank you, Ana! We're glad you enjoyed it. See you next time.
+976|01 · What keeps running
+977|A profile that
+978|looks alive.
+979|People comparing two businesses on Google Maps look at the stars, the date of the latest review and how the business replies to complaints.
+980|87 reviews
+981|Ana R. · ★★★★★ · 2 days ago
+982|Fictitious profile, illustrative example.
+983|Service completed
+984|Automatic request
+985|WhatsApp, SMS or email, with a direct link to review
+986|New review on the Google profile
+987|Positive
+988|Reply in the company's tone
+989|Can go out on its own
+990|Negative
+991|Alert with a draft reply
+992|Nothing is published without your approval
+993|Monthly report
+994|Requests sent, new reviews and response time, on one page
+995|A profile with recent reviews, every one answered
+996|02 · Who it's for
+997|If one of these
+998|sounds familiar.
+999|Stale profile
+1000|No recent reviews
+1001|The latest review is months old and the profile looks idle, even with clients every day.
+1002|No time
+1003|Unanswered reviews
+1004|There are good and bad reviews waiting for a reply, because there's never time for it.
+1006|Lots of clients, little time
+1007|Clinics, garages, restaurants, beauty salons, gyms: businesses clients choose on Google Maps.
+1008|Five steps,
+1009|then it runs on its own.
+1010|Request sent to every client
+1011|Nothing in exchange for stars
+1012|No review written by me
+1013|Replies in the company's tone
+1014|Negatives only with approval
+1015|Profile connection
+1016|Access to the Google profile
+1017|Connection to bookings, invoices or a client list
+1018|QR code for the counter or the invoice
+1019|Message and tone
+1020|Request message written with you
+1021|Sample replies used as a basis for the AI
+1022|Rules: what's never said in a reply
+1023|Every reply goes through you before it's sent
+1024|I adjust the tone until it's how you want it
+1025|Ongoing
+1026|Every day
+1027|Request sent after each service
+1028|Reply to every new review
+1029|Instant alert when a negative one arrives

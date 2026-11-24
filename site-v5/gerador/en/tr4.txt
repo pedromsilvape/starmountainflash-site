@@ -1,0 +1,304 @@
+370|Other
+371|automation services.
+1030|At the end of the month
+1031|Comparison with local competitors
+1032|Removal requests for reviews that break Google's rules
+1033|requests sent
+1034|new reviews
+1035|answered
+1036|Report · month 6 · example
+1037|Does Google allow asking for reviews?
+1038|It does, as long as every client is asked and nothing is given in return. That's how the system is set up.
+1039|Can you delete a negative review?
+1040|No. Only Google removes reviews, and only those that break its rules, such as spam, offensive content or reviews from people who were never clients. In those cases I file the removal request for you.
+1041|Will the replies sound like a robot wrote them?
+1042|Before starting, we pick together some replies you've given or would like to give, and the AI writes from those. The first weeks all go through you.
+1043|Does the team have to do anything?
+1044|No. The request goes out from bookings, invoices or the client list. At the counter, the QR code on display is enough.
+1045|Do I need to buy any software?
+1046|You don't need to install anything. I work with the Google profile you already have.
+1047|What kind of business is it for?
+1048|For businesses where clients choose on Google Maps: clinics, garages, restaurants, beauty salons, gyms, technical services and shops.
+1049|How is your profile doing today?
+1050|I check how many reviews are unanswered, how long ago the latest one arrived and how you compare with two competitors in your area. The review is free.
+1051|How is your
+1052|Google profile today?
+1053|Request a free review
+1054|About Pedro Pereira · Starmountain Flash
+1055|Websites and automations made in Covilhã,
+1056|far from the big cities.
+1057|Military training and many hours building websites and automations. That's what's behind every Starmountain Flash project.
+1058|See my background
+1059|projects delivered, across websites, landing pages and platforms
+1060|digital supplier to the University of Beira Interior
+1061|person in charge, from first contact to launch
+1062|01 · Who I am
+1063|Founder of Starmountain Flash.
+1064|I was born in Porto, lived in Lisbon and the United States, and now work from Covilhã, by the Serra da Estrela mountains.
+1065|I know company processes from the inside and see up close where time gets lost: data copied by hand, forgotten requests, reports put together in a rush. That's where the automation side comes from.
+1066|The website side started as a personal interest in web design. It became a service when I realised many companies had good products and no way of being found.
+1067|Before all this there was the Army. An international mission with NATO and a national recognition medal taught me two things I bring to every project: a written plan before starting, and saying straight away when something changes.
+1068|02 · Background
+1069|From Porto to the Serra da Estrela,
+1070|the long way round.
+1071|Military training
+1072|International mission and national recognition medal. I learned to plan, to deliver what I agree to and to leave nothing half done.
+1073|Lisbon and the United States
+1074|Years living away from Porto and abroad, which gave me another way of looking at businesses, clients and ways of working.
+1075|Inside companies
+1076|Company life seen from the inside: numbers, deadlines, documents and a lot of repetitive work.
+1078|From a personal interest in web design to a website and AI automation service, based in Covilhã.
+1079|Digital supplier to UBI, with three institutional websites live.
+1080|03 · The name
+1083|Comes from the Serra da Estrela, where the company is based.
+1085|Comes from speed of execution and from the artificial intelligence at the heart of the automations.
+1086|04 · Education and certifications
+1087|Academic, professional
+1088|and military training.
+1089|What's behind every project, with the bodies that awarded it.
+1090|In progress
+1092|Degree in Management
+1093|Business management, finance and organisation.
+1094|Certified · 2026
+1097|Measuring and analysing traffic, behaviour and conversions on websites.
+1098|Google · valid until August 2027 · ID 192548880
+1099|Completed · 2026
+1101|Web Programming
+1102|25-hour course on web development.
+1104|Verify ↗
+1105|Awarded
+1106|Portuguese Army
+1107|NATO
+1108|National recognition medal
+1109|International mission with NATO.
+1110|Portuguese Army · NATO
+1111|Partner
+1113|Partner programme for building online stores.
+1114|05 · How I work
+1115|Four rules
+1116|in every project.
+1117|I start with a free visual proposal. The quote only comes afterwards, if you want to go ahead.
+1118|Before starting, what you'll get and when is put in writing. If anything changes, you know the same day.
+1119|You always talk to me. The person who hears the request is the person who builds it.
+1120|If something isn't worth it, I'll tell you. Even if that means a smaller project.
+1121|06 · Vision and mission
+1122|Two sentences that decide
+1123|what I take on and what I turn down.
+1124|Mission · what I do every day
+1125|Put technology to work on companies' repetitive tasks, so people have time for what only they can do.
+1126|Vision · where I want to get to
+1127|To be recognised as a Portuguese technology company with its own products, built away from the big cities.
+1128|Contact · Starmountain Flash
+1129|Contact.
+1130|You always talk to me.
+1131|A new website, an online store, AI visibility or a task to automate. Choose the channel that suits you best, or ask for a free proposal now.
+1132|Go to the form
+1133|Direct contact
+1134|Send a message
+1135|Phone
+1136|I read and reply myself
+1137|Where I am
+1138|Covilhã, Serra da Estrela.
+1139|Clients all over the country.
+1140|I work remotely with companies all over Portugal. Meetings are held online or, when it makes sense, at the client's premises.
+1141|Contact hours
+1142|9:00 to 20:30, by email, WhatsApp or phone.
+1143|Who replies
+1144|I read and reply myself, through the channel you choose.
+1145|After you send it
+1146|What happens
+1147|next.
+1148|You send the request
+1149|Through the form, email or WhatsApp
+1150|Through the channel you chose
+1151|See first how it could look
+1152|One week of logging and a report
+1153|Only comes afterwards, if you want to go ahead
+1154|How I work · Starmountain Flash
+1155|How I work
+1156|Three phases,
+1157|each with a clear end.
+1158|You know what happens, what you get and what you need to do on your side, before each phase starts.
+1159|See the phases
+1160|The three phases
+1161|in progress
+1162|Discovery
+1163|Before designing, understand the business, the clients and where time or opportunities are being lost.
+1164|Execution
+1165|With the quote approved, the project moves ahead on the agreed timeline, with review points set from the start.
+1166|Automation
+1167|After launch, or as a separate project, the business's repetitive work starts running on its own.
+1168|Each phase ends with your sign-off.
+1169|01 · In detail
+1170|Phase by phase,
+1171|no small print.
+1172|You always know where the project stands, what comes next and what's still needed from you.
+1173|Quote approved
+1174|The website live, fast and ready for Google and AI
+1175|Website live
+1176|The automation up and running
+1177|A conversation about goals and priorities
+1178|Review of the current website, if there is one
+1179|Review of the competition and the tools you use
+1180|What you get
+1181|If you want to go ahead, a quote tailored to what you asked for
+1182|A recommendation of the right format: landing page, website, store or automation
+1183|What I need from you
+1184|A conversation of about 30 minutes, online
+1185|Access to what already exists: website, social media, materials
+1186|Custom design, with a first review
+1187|Development in code, with a second review
+1188|Testing on mobile, speed and SEO
+1189|Launch and domain setup
+1190|Logins and an explanation of how it works
+1191|Basic texts about the business
+1192|Logo and photos, if you have them
+1193|Feedback at the reviews, on the agreed dates
+1194|Survey of the repetitive tasks and the time they take
+1195|Building the automation with your tools
+1196|Testing with real cases before it goes live
+1197|A simple explanation of how it works
+1198|Follow-up in the first weeks
+1199|Access to the tools involved
+1200|Someone who knows the process well
+1201|02 · In every project
+1202|Four commitments
+1203|that don't change.
+1204|I start with a free visual proposal. The quote only comes afterwards, if you want to go ahead, tailored to what you asked for.
+1205|What you'll get and when is agreed before starting. If anything changes, you know the same day.
+1206|One person in charge
+1207|You always talk to me, from first contact to launch. The person who hears the request is the person who builds it.
+1208|Everything in your name
+1209|The domain and accounts are in the company's name. The website is yours and isn't tied to me.
+1210|03 · Maintenance
+1211|About the way
+1212|I work.
+1213|What if I want to change something midway?
+1214|That's what the reviews are for: adjustments asked for at those points are part of the project. Changes that alter the agreed scope are discussed first and, if needed, quoted separately.
+1215|How many rounds of changes are included?
+1216|They're set in the quote, according to the type of project, so we both know from the start what to expect.
+1217|How are payments made?
+1218|The terms are in the quote. Most often the payment is split between kick-off and delivery.
+1219|How long does a project take?
+1220|It depends on the format. The deadline is agreed before starting. Landing pages are the quickest format; online stores and automations take longer.
+1221|Are meetings in person or online?
+1222|Online, which lets me work with companies all over the country. I'm based in Covilhã and, when it makes sense, we can also meet in person.
+1223|What if the project doesn't go ahead after the proposal?
+1224|Nothing. The visual proposal is free and is there precisely to see whether it makes sense for both of us. We only go ahead if you want to, after the quote.
+1225|Free website review · Starmountain Flash
+1226|Get my review
+1227|Free review · No commitment
+1228|Find out where your website
+1229|is losing clients.
+1230|Send your website link and get, within 3 working days, a PDF report with what to fix first.
+1231|The 3 problems driving clients away most, marked on your own website
+1232|A 0 to 10 score in five areas, with the numbers explained
+1233|The fix for each problem and what you can solve yourself
+1234|Real client reviews on
+1235|and on
+1236|Request your free review
+1237|Your website link (www.yourcompany.com)
+1238|Get my free review ↗
+1239|No cost and no commitment. Your details are only used to prepare and send the review.
+1240|Warning signs
+1241|Do any of these sound familiar?
+1242|Then it's worth requesting the review.
+1243|Visits, but few enquiries
+1244|People land on the site and leave without calling, writing or asking for a quote.
+1245|Doesn't show up on Google
+1246|People looking for your service in your area find the competition first.
+1247|Hard to use on mobile
+1248|The site is slow to open or makes people zoom in to read and find the contact details.
+1249|A PDF report,
+1250|prepared for your website.
+1251|Every statement is checked on your website and the report is reviewed by me before it's sent.
+1252|Score by area
+1253|An overall score and five partial scores, so you know where the site is strong and where it falls short.
+1254|Message and first impression
+1255|Contact and conversion
+1256|Mobile and speed
+1257|Trust and proof
+1258|Visibility on Google
+1259|Where you lose clients
+1260|The three problems with the most impact, shown in screenshots of your own website.
+1261|Annotations made by hand
+1262|Review of the mobile version
+1263|Starts with what already works
+1264|Numbers explained
+1265|The technical figures are translated, so you understand them without being in the field.
+1266|Speed measured with PageSpeed
+1267|Comparison with two competitors
+1268|Before and after of the headline
+1269|How to fix it
+1270|The fix for each problem, with the effort each one takes.
+1271|What you can do now, yourself
+1272|What needs a professional
+1273|No obligation to hire
+1274|Get my free review ↓
+1275|Free. You get the report within 3 working days.
+1276|Three steps.
+1277|Less than a minute of your time.
+1278|Send the link
+1279|Name, email and website.
+1280|Fill in the form. That's all I need to get started.
+1281|I review it
+1282|I look at your website on mobile.
+1283|I measure the speed, compare it with two local competitors and pick the three problems costing you the most clients.
+1284|You get the PDF
+1285|Within 3 working days.
+1286|It arrives in your inbox. Then you decide: fix it yourself, ask me for help or do nothing.
+1287|Clients
+1288|What clients say.
+1290|Review on Trustpilot
+1294|Review on Google
+1295|FAQ
+1296|Before you
+1297|request the review.
+1298|Is it really free?
+1299|Yes. There's no cost and no payment details are asked for at any point.
+1300|Am I obliged to hire you?
+1301|No. The report says what you can fix yourself and what needs a professional, whether that's me or someone else.
+1302|Within 3 working days of the request.
+1303|Is it an automated report?
+1304|No. Every statement is checked on your website and the report is reviewed by me before it's sent.
+1305|What do you do with my data?
+1306|It's used only to prepare the review and send it to you.
+1307|Last call
+1308|Is your website working for you?
+1309|Find out in 3 working days.
+1310|Free and no commitment
+1311|Prepared for your website and reviewed by me
+1312|PDF report in your inbox
+1313|© 2026 Starmountain Flash · Covilhã · Digital supplier to UBI
+1314|About Starmountain Flash
+1315|A quick request about cookies.
+1316|I'd like to use measurement cookies (Meta) to see whether this page is useful. Only with your permission. The page works the same if you decline. More details in the
+1317|privacy policy
+1318|Accept
+1319|Decline
+1320|Request received · Starmountain Flash
+1321|Request received
+1322|Thank you.
+1323|Your review is already on my list.
+1324|You'll get the PDF report in your inbox within 3 working days.
+1325|I look at your website on mobile and measure its speed
+1326|I compare it with two local competitors
+1327|I send you the report, reviewed by me
+1328|If you don't see it in your inbox, check your spam folder.
+1329|Page not found · Starmountain Flash
+1330|Page not found
+1331|Error 404.
+1332|This page doesn't exist.
+1333|The address may be mistyped or the page may have moved. Here are the most visited places.
+1334|Back to home
+1335|Error
+1336|The address may be mistyped or the page may have moved.
+1337|Where to go
+1338|Perhaps you were looking for
+1339|one of these.
+1340|Go →
+1341|Shopify or custom-built, ready to sell.
+1342|Repetitive work running on its own.
+1343|UBI, Planet Trading, StudyOS and Beatriz Nunes.
+1344|Three phases, starting with a free visual proposal.
+1345|Notes on websites, SEO and automation.

@@ -1,0 +1,334 @@
+342|n8n and Make
+343|Own framework
+344|Custom-built
+345|When there's no integration, or the process is too specific, I build the automation from scratch, with my own code and without depending on middleware platforms.
+346|Web bots
+347|Node.js and Playwright, to operate portals without an official connection
+348|Data
+349|Supabase, to store and organise the information
+350|Language models to read, classify and summarise
+351|Connections
+352|APIs and webhooks between systems
+354|Not everything should be automated.
+355|If a task takes five minutes a month, it isn't worth it. In the survey I tell you honestly what's worth doing and what isn't.
+356|04 · FAQ
+357|Automations,
+358|in a few words.
+359|Do I need a website to automate?
+360|No. Automations work with the tools you already use: email, spreadsheets, CRM, management software. The website is just one of the possible connections.
+361|How much does an automation cost?
+362|A simple automation costs between €800 and €1,200; with AI or two to three flows, between €1,200 and €2,500; a custom system starts at €3,500. The exact price goes in the proposal, after the survey. I explain what makes the price vary in
+363|how much an AI automation costs
+364|Is my data safe?
+365|Automations use the company's own accounts and tools, with access only to what they need to work.
+366|What if something goes wrong?
+367|Automations are tested with real cases before they go live. How follow-up and adjustments work is set out in the proposal.
+368|Where does artificial intelligence come in?
+369|In tasks that involve text: sorting emails, summarising documents, extracting data or drafting replies. When it matters, there's always a human review before anything goes out.
+370|Other automation
+371|services.
+372|One week of logging the team's tasks and a report on what to automate first.
+373|Get started
+374|Which task would you like to never do again?
+375|Tell me in two or three lines. I'll reply with what I'd do in your case and whether it's worth automating.
+376|Start with the
+377|Automation diagnosis: the StarMap Method · Starmountain Flash
+378|Automation diagnosis · StarMap Method
+379|Before automating,
+380|see where
+381|your time goes.
+382|For one week, your team logs what they do on a platform of mine. At the end, I show you how many hours go to repetitive tasks and which ones make sense to automate first.
+383|logging
+384|Mon
+385|Tue
+386|Wed
+387|Thu
+388|Fri
+389|Orders from email into Excel
+390|Supplier invoices
+391|Quote requests
+392|Illustrative example of an
+393|admin team.
+394|on orders, over 5 days
+395|01 · Why log
+396|Estimating gives one number.
+397|Logging gives another.
+398|If you ask someone how long they spend copying orders from email into Excel, the answer is a guess. After a week of logging, you know how many orders there are and how many minutes each one takes.
+399|Estimate
+400|“The orders? Half an hour a day, tops.”
+401|Said in a meeting · illustrative example
+402|What the logging week finds
+404|Orders_2024_FINAL(2).xlsx
+405|Updated by hand, every day
+407|FW: FW: urgent order
+408|Copied into Excel at 4:45 pm
+410|supplier_invoice_0381.pdf
+411|Entered by hand into the software
+412|CALENDAR
+413|Book visit · call back
+414|Paper diary
+415|Orders, logged over 5 days
+416|02 · The platform
+417|One line per task,
+418|for one week.
+419|The team logs and I cross-check the entries with the tools the company already uses. What comes out is a list of what to automate and in what order.
+420|Logging
+421|What they did, how long it took and with which tool. It takes a few seconds.
+422|Access
+423|Separate data
+424|Login with email and password. Each company only sees its own entries.
+425|Duration
+426|A full week
+427|A single day misses the tasks that happen two or three times a week.
+428|To get to know the company's story and the team before looking at the numbers.
+429|03 · How it works
+430|In the first meeting I want to learn the company's story and hear from you what's going wrong, before looking at numbers.
+431|Company history, who does what and what weighs most day to day.
+432|history
+433|team
+434|pain points
+435|email and password
+436|Five working days of entries, with a survey of the tools and files in use. During the week I follow the entries coming in and answer the team's questions.
+437|Analysis
+438|I group the entries by task, person and tool and see what repeats.
+439|04 · What you get
+440|Where the time goes,
+441|in order.
+442|At the end of the week, the entries are grouped and ranked by the time they take. The figures below are an example.
+443|Repetitive task
+444|Hours/week
+445|Priority
+447|Automate first
+448|Entering supplier invoices
+449|PDF, invoicing
+450|Replies to quote requests
+451|Next
+452|Booking visits
+453|Review process
+454|Weekly report to management
+456|Keep
+457|Own platform
+458|Built by me for these diagnoses, at
+460|You get the report and a presentation meeting, so you can ask everything before deciding.
+461|The report says what makes sense to automate and why. You're under no obligation to go ahead with me.
+462|05 · FAQ
+463|What people
+464|ask me most.
+465|Will the team lose a lot of time logging?
+466|Each entry is one line: what they did, how long it took and with which tool. Across the day, it adds up to a few minutes.
+467|Why a week and not a day?
+468|A single day misses the tasks that happen two or three times a week, such as invoices, supplier orders or reports.
+469|Who sees the entries?
+470|Your company and me. The platform keeps each company's data separate and access is by email and password.
+471|After the diagnosis, do I have to automate with you?
+472|The report says what makes sense to automate and why. The decision about what to do next is yours.
+473|Which companies is it for?
+474|For teams with admin work that repeats every week: orders, invoices, bookings, quotes, reports.
+475|After the
+476|diagnosis.
+477|What takes up most time in your company?
+478|Tell me in two or three lines. I'll reply with how I'd run the diagnosis in your case.
+479|Before automating,
+480|one week of logging.
+481|Internal AI assistant for companies · Starmountain Flash
+482|Internal assistant · larger companies
+483|Ask your company's
+484|documents.
+485|A private AI assistant that answers based on the company's internal documents: procedures, contracts, manuals and past proposals. Every answer shows the document and page it came from.
+486|Book a meeting
+487|Team: Purchasing
+488|What are Metalúrgica Silva's payment terms?
+489|searching the documents…
+490|60 days from the invoice date, according to the 2024 contract and addendum no. 2.
+493|Illustrative example with fictitious documents.
+494|Connects to what the company already uses
+499|Network folders
+500|Scanned documents
+501|01 · The problem
+502|The answer exists.
+503|Nobody knows where.
+504|Whoever needs it asks a colleague, and that colleague stops what they're doing.
+505|Shared folder
+506|In a PDF in a shared folder
+507|With three versions and none saying which one is current.
+508|Inbox
+509|In an email from two years ago
+510|Forwarded so many times that nobody can find it by searching any more.
+511|People
+512|In the head of someone who has left
+513|Or of someone on holiday precisely the week it's needed.
+514|02 · Permissions
+515|Each team sees
+516|what it already saw.
+517|The assistant follows the permissions that already exist on the folders. Anyone without access to a document gets no answers based on it.
+518|Team
+519|Contracts
+520|Proced.
+521|Proposals
+522|Prices
+523|Purchasing
+524|Quality
+525|Sales
+526|Management
+527|Sales asks
+528|“What's the margin on the contract with Supplier A?”
+529|No access to contracts · question blocked
+530|Permissions by team or by person
+531|Management contracts stay with management
+532|Log of questions asked
+533|03 · The Vault
+534|Before connecting,
+535|tidy up.
+536|An assistant connected to messy folders gives messy answers. That's why the first part of the work is the Vault: an organised archive, with no duplicates and only the current version of each document.
+537|Contract_FINAL_v3.pdf
+538|Contract_FINAL_v3 (1).pdf
+539|old_quality_manual.docx
+541|Copy of Price list.xlsx
+542|Vault · current
+543|Purchasing/
+544|Contracts/Supplier A 2024.pdf
+545|Quality/
+546|PR-07 Returns v4.docx
+547|Sales/
+548|Price list 2024.xlsx
+549|Duplicates and old versions removed
+550|Scanned documents converted to text
+551|Structure designed for the company
+552|04 · How it works
+553|How a document
+554|becomes an answer.
+555|From the folders where the documents already live to the team asking the question. How the documents are split, indexed and filtered decides whether the answers are useful. Most of the work is in this part.
+556|Sources
+557|Where they already are
+558|Google Drive · SharePoint · network folders · PDF
+559|1 · Organise
+561|No duplicates, current version
+562|2 · Index
+563|Index
+564|Excerpts by section, with permissions
+565|3 · Answer
+566|Assistant
+567|Answer with its source
+568|Teams
+569|Who asks
+570|Purchasing · Quality · Sales, each one sees only what it already saw
+572|permissions.yaml
+573|answer.json
+574|# how documents get into the assistant
+575|sources:
+576|sharepoint://quality/procedures
+577|drive://purchasing/contracts
+578|smb://server/manuals
+579|preparation:
+580|duplicates:
+581|remove
+582|versions:
+583|keep_current_only
+584|scanned:
+586|indexing:
+587|split:
+588|by_section
+589|refresh:
+590|when_the_file_changes
+591|answer:
+592|cite_source:
+593|always
+594|no_source:
+595|"I couldn't find this information."
+596|# answers follow the access that already exists
+597|teams:
+598|purchasing:
+599|can_see:
+600|[contracts, suppliers]
+601|quality:
+602|[procedures, non_conformities]
+603|sales:
+604|[proposals, procedures]
+605|management:
+606|everything
+607|log:
+608|unanswered_questions:
+609|keep
+610|"question"
+611|"Payment terms Metalúrgica Silva?"
+612|"user"
+613|"purchasing"
+614|"answer"
+615|"60 days from the invoice date..."
+616|"sources"
+617|"document"
+619|"page"
+621|Where the data lives
+622|On the company's servers or in a cloud with a business contract. Decided in the survey.
+623|Updates
+624|When a document changes at the source, the assistant starts answering with the new version.
+625|Unanswered questions show which documentation the company is missing.
+626|05 · Phases
+627|Start with one team,
+628|then expand.
+629|A pilot with a single department quickly shows whether the answers are useful and which documents are missing or out of date.
+630|Which documents exist, where they are, who can access what and which questions each team asks most. This is also where we decide where the data lives.
+631|Organising the Vault
+632|Clean out duplicates and old versions and define a structure that makes sense for the company.
+633|Assistant and permissions
+634|Connecting the sources, indexing and testing with the company's real questions, before anyone uses it.
+635|Pilot with one team
+636|One department uses it day to day. I adjust based on what they ask and what goes unanswered.
+637|Expand
+638|New teams and new sources, with regular reviews of unanswered questions and access.
+639|06 · FAQ
+640|What is RAG?
+641|RAG (Retrieval-Augmented Generation) is the technique where the assistant first looks for the right excerpts in the company's documents and only then writes the answer based on them. That's what lets it cite the source instead of answering from memory.
+642|Do the documents leave the company?
+643|It depends on the option chosen in the survey: everything on the company's servers, or in a cloud with a business contract that doesn't use the data to train models. I explain the differences before you decide.
+644|Can the AI make up answers?
+645|It can get things wrong, like any system. That's why every answer shows the source document and the assistant is set up to say when it finds nothing.
+646|Will an intern see management's contracts?
+647|No. The assistant follows the permissions that already exist on the folders. Anyone without access to a document gets no answers based on it.
+648|Which document types does it accept?
+649|PDF, Word, Excel, PowerPoint, internal pages and, where it makes sense, emails. Scanned documents too, once converted to text.
+650|Does it connect to what we already use?
+651|Google Drive, SharePoint and OneDrive, network folders and most systems that can export documents.
+652|For companies with a lot of internal documentation and teams that ask the same questions many times: manufacturing, technical services, healthcare, education and professional services.
+653|Which questions does your team ask every week?
+654|In a first meeting we look at the documentation that exists and I tell you whether it makes sense to go ahead and where to start.
+655|Start with
+656|one team.
+657|Website design and development · Starmountain Flash
+658|Websites that
+659|bring in clients.
+660|Landing pages and company websites designed to measure, built for mobile and ready to show up on Google and in ChatGPT answers.
+661|See formats
+662|Live websites
+663|real clients
+666|Web platform
+669|01 · Two formats
+670|A single page or a full website.
+671|It depends on the goal.
+672|For companies that don't have a website yet, have an old one that doesn't bring in enquiries, or need a page to launch a service or a campaign. Sometimes it makes sense to start with a landing page and grow later.
+673|Format 01
+675|A single page with a single goal: get in touch, book, buy or sign up. Everything on the page pushes in that direction.
+676|Ideal for
+677|Launching a service, paid campaigns, events, freelancers
+678|Structure
+679|One long page, with sections designed to convert
+680|Form, WhatsApp or direct booking
+681|Format 02
+682|Company website
+683|The company's full website, with several pages. It explains who you are, what you do and for whom, and gives Google and AI engines enough content to recommend you.
+684|Companies with several services, teams, clinics, offices, institutions
+685|Home, services, about, work, contact and a blog, if it makes sense
+686|Form, WhatsApp, phone and map
+687|02 · What's included
+688|Everything a website needs,
+689|described before starting.
+690|Each point is described in the proposal, so you know exactly what you'll get.
+691|Custom design
+692|Designed for your brand and your client, not a bought theme with the logo swapped.
+693|Built in code
+694|Developed in code (Next.js), not in a drag-and-drop builder. Light, fast and secure pages.
+695|Built for mobile
+696|Most visits come from mobile. The site is designed for that first.
+697|Technical SEO
+698|Titles, descriptions, sitemap, structured data and clean URLs, ready for Google.
+699|Ready for AI
