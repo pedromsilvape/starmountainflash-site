@@ -2,7 +2,7 @@
 from pages import sh, faq_sec, U
 
 def header(home):
-    return (f'<header class="lp on"><a href="{home}" class="shell brand">%%LOGO_W%%</a>'
+    return (f'<header class="lp on"><a href="{home}" class="shell brand" aria-label="Starmountain Flash">%%LOGO_W%%</a>'
             '<a href="#pedido" class="pill w lp-cta">Quero a minha análise <span class="orb">↓</span></a></header>')
 
 def form(id_, go):
@@ -59,14 +59,14 @@ def page_lp():
         + f'<section class="sec tight">{sh("Clientes", "O que dizem os clientes.")}<div class="tgrid" data-cards>{revh}</div></section>'
         + faq_sec('Perguntas frequentes', 'Antes de<br>pedir a análise.', FAQ)
         + '<section class="sec dk lpend"><div class="lpe"><div><span class="ey">Última chamada</span><h2 data-split="1" style="margin-top:1rem">O seu site está a trabalhar para si?</h2><p class="lead2">Descubra em 3 dias úteis.</p>'
-        + '<ul class="ticks"><span>Gratuita e sem compromisso</span><span>Preparada para o seu site e revista por mim</span><span>Relatório em PDF no seu email</span></ul></div>'
+        + '<div class="ticks"><span>Gratuita e sem compromisso</span><span>Preparada para o seu site e revista por mim</span><span>Relatório em PDF no seu email</span></div></div>'
         + f'<div class="hud lpfw">{form("f2", GO)}</div></div></section></main>' + foot(H))
     return dict(slug='analise-gratuita', crumb='Análise gratuita', kind='landing', noindex=True, faq=FAQ,
                 title='Análise gratuita ao seu site · Starmountain Flash', desc='Envie o link do seu site e receba, em até 3 dias úteis, um relatório em PDF com o que deve corrigir primeiro. Gratuita e sem compromisso.', raw=body)
 
 def page_ok():
     H = '../../index.html'
-    body = (f'<header class="lp on"><a href="{H}" class="shell brand">%%LOGO_W%%</a></header><main id="top" class="subp lpm">'
+    body = (f'<header class="lp on"><a href="{H}" class="shell brand" aria-label="Starmountain Flash">%%LOGO_W%%</a></header><main id="top" class="subp lpm">'
             '<section id="hero" class="sub lp ok"><div class="clip"><canvas data-grad="#253745,#A9C8E8,6.3"></canvas><div class="ui"><div class="okw">'
             '<span class="okc2" data-hi>✓</span><span class="mono eb" data-hi>Pedido recebido</span><h1 data-split="hero" data-ramp="hero">Obrigado.<br>A sua análise já está na minha lista.</h1>'
             '<p class="lead" data-hi>Recebe o relatório em PDF no seu email em até 3 dias úteis.</p>'

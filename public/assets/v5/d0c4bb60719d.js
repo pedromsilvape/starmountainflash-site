@@ -64,9 +64,9 @@
   }
   var bar;
   function hide() { if (bar) bar.classList.add('off'); }
-  function show() {
+  function show(now) {
     if (!bar) {
-      bar = D.createElement('div'); bar.className = 'ckb off'; bar.setAttribute('role', 'dialog'); bar.setAttribute('aria-label', 'Cookies');
+      bar = D.createElement('div'); bar.className = now ? 'ckb' : 'ckb off'; bar.setAttribute('role', 'dialog'); bar.setAttribute('aria-label', 'Cookies');
       bar.innerHTML = '<b>' + T.t + '</b><p>' + T.p + '<a href="' + T.href + '">' + T.pl + '</a>.</p>'
         + '<div class="ckc" hidden><label><input type="checkbox" data-c="m"><span><b>' + T.m + '</b>' + T.md + '</span></label><label><input type="checkbox" data-c="k"><span><b>' + T.k + '</b>' + T.kd + '</span></label></div>'
         + '<div class="ckbt"><button type="button" class="pill d" data-a="all">' + T.all + '</button><button type="button" class="pill o" data-a="no">' + T.no + '</button><button type="button" class="pill o" data-a="pick">' + T.pick + '</button></div>';
@@ -82,11 +82,11 @@
         }
       });
     }
-    requestAnimationFrame(function () { bar.classList.remove('off'); });
+    if (!now) requestAnimationFrame(function () { bar.classList.remove('off'); });
   }
   apply();
-  if (!c) setTimeout(show, 900);
-  D.addEventListener('click', function (e) { var a = e.target.closest('[data-ck]'); if (a) { e.preventDefault(); show(); } });
+  if (!c) show(true);
+  D.addEventListener('click', function (e) { var a = e.target.closest('[data-ck]'); if (a) { e.preventDefault(); show(false); } });
 
   /* ---------- eventos ---------- */
   function ev(name, p) { try { if (window.gtag && loaded.m) gtag('event', name, p || {}); } catch (e) {} }
