@@ -39,8 +39,10 @@
   var c = null; try { c = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) {}
   var loaded = { m: false, k: false };
   function load(src) { var s = D.createElement('script'); s.async = true; s.src = src; D.head.appendChild(s); }
+  // só mede no domínio real (pré-visualizações do Netlify e testes não contam)
+  var PROD = /(^|\.)starmountainflash\.pt$/.test(location.hostname);
   function apply() {
-    if (!c) return;
+    if (!c || !PROD) return;
     if (c.m && !loaded.m) {
       loaded.m = true;
       window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); };
