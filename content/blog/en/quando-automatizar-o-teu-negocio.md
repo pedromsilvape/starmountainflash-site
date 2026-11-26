@@ -25,6 +25,6 @@ If the reason you don't take on more clients is "I don't have time to manage any
 
 ## When it isn't worth it yet
 
-If the process is still changing every week, or only happens now and then, automating too early tends to be time badly spent: the process hasn't settled down enough to be worth locking into a system. In that case, the priority is to understand the process properly by hand first, and only then build around it.
+If the process is still changing every week, or only happens now and then, automating too early tends to be time badly spent: the process hasn't settled down enough to be worth locking into a system. In that case, the priority is to understand the process properly by hand first, and only then build around it. When you do decide to go ahead, read [why so many AI automations fail in businesses](/en/blog/porque-falham-automacoes-ia-empresas) first, so you avoid the most common mistakes.
 
 If you recognise at least one of the first three signs, you are probably already losing time on something that didn't need your direct attention. See [the kind of automations I build for SMEs](/en/automacoes).

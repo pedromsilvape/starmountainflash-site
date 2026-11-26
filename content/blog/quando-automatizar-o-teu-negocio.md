@@ -25,6 +25,6 @@ Se a razão para não aceitares mais clientes é "não tenho tempo para gerir ma
 
 ## Quando ainda não vale a pena
 
-Se o processo ainda está a mudar toda a semana, ou se só acontece raramente, automatizar cedo demais costuma ser tempo mal gasto: o processo ainda não estabilizou o suficiente para valer a pena fixá-lo num sistema. Nesse caso, a prioridade é primeiro perceber bem o processo à mão, e só depois construir à volta dele.
+Se o processo ainda está a mudar toda a semana, ou se só acontece raramente, automatizar cedo demais costuma ser tempo mal gasto: o processo ainda não estabilizou o suficiente para valer a pena fixá-lo num sistema. Nesse caso, a prioridade é primeiro perceber bem o processo à mão, e só depois construir à volta dele. Quando decidires avançar, lê antes [porque falham tantas automações com IA nas empresas](/blog/porque-falham-automacoes-ia-empresas), para não cair nos erros mais comuns.
 
 Se reconheces pelo menos um dos três primeiros sinais, provavelmente já há tempo a ser perdido em algo que não precisava da tua atenção direta. Vê [que tipo de automações faço para PME](/automacoes).
