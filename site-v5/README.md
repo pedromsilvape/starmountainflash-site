@@ -22,6 +22,10 @@ O gerador está em `gerador/` (Python 3 + esbuild):
 Quando houver um artigo novo no blog, é preciso voltar a gerar para ele aparecer no design novo
 e na lista do blog.
 
+Atalho só para o blog: `python3 site-v5/gerador/atualizar_blog.py` (requer `pyyaml` e `markdown`).
+Cria as páginas estáticas dos artigos novos (PT e EN), atualiza a lista, os destaques e os artigos
+relacionados, e acrescenta os endereços a `paginas.json`, sem mexer no resto do site.
+
 ## Medição
 
 `gerador/pt/site.js`: aviso de cookies com duas categorias.
